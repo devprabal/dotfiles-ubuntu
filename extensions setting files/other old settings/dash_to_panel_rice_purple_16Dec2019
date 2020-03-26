@@ -1,0 +1,23 @@
+[/]
+appicon-margin=12
+appicon-padding=4
+dot-position='TOP'
+force-check-update=false
+hotkeys-overlay-combo='TEMPORARILY'
+intellihide=false
+intellihide-behaviour='MAXIMIZED_WINDOWS'
+intellihide-hide-from-windows=false
+location-clock='STATUSLEFT'
+panel-position='TOP'
+panel-size=42
+preview-middle-click-close=false
+show-apps-icon-file='/home/devpogi/Documents/Ricing/Ubuntu ricing 11 Oct 2019/ubuntu logo.png'
+taskbar-position='LEFTPANEL'
+trans-bg-color='#68217a'
+trans-panel-opacity=0.45000000000000001
+trans-use-custom-bg=true
+trans-use-custom-opacity=false
+window-preview-padding=6
+window-preview-title-font-color='#ffffff'
+window-preview-title-font-size=18
+window-preview-title-font-weight='normal'

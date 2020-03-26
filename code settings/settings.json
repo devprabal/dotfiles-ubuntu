@@ -1,0 +1,26 @@
+{
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "default",
+    "workbench.activityBar.visible": true,
+    "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorCustomizations": {},
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "clang-format.executable": "/usr/bin/clang-format",
+    "C_Cpp.updateChannel": "Insiders",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "workbench.colorTheme": "Default Light+",
+    "sync.gist": "7e54edfb004619de14f2fa11d394cb18",
+    "editor.fontFamily": "'Hack Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 13,
+    "todo-tree.highlights.enabled": true,
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    }
+}
