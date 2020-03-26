@@ -1,0 +1,9 @@
+ vala: Fix build with vala 0.43+ git master due to empty struct definition
+ 
+ public struct Options
+  {
+    //FIXME Merge this struct into App class
+    public int dummy;
+
+
+https://gitlab.gnome.org/GNOME/vte/commit/53690d5cee51bdb7c3f7680d3c22b316b1086f2c

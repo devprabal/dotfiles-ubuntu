@@ -1,0 +1,11 @@
+/* gtk.css */
+
+VteTerminal,
+TerminalScreen,
+vte-terminal {
+    padding: 10px;
+    -VteTerminal-inner-border: 10px;
+}
+.termite {
+    padding: 0px;
+}

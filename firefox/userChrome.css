@@ -1,0 +1,267 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ###############################################################################################*/
+/* TAB ANIMATION: LOADING PROGRESS LINE INDICATOR */
+/* https://www.reddit.com/r/FirefoxCSS/comments/ednqu6/my_loading_burst_in_tab_filling_code/ */ /* ###############################################################################################*/
+
+.tabbrowser-tab .tab-loading-burst {
+	background-image: linear-gradient(90deg, transparent, #e95420) !important;
+	background-repeat: no-repeat !important;
+	transition: background-size 0.5s ease-out !important;
+	opacity: 0.5s linear !important;
+	background-size: 0px 100% !important;
+	background-position-y: bottom !important;
+}
+
+.tabbrowser-tab:not([busy]) .tab-loading-burst {
+	opacity: 0 !important;
+}
+
+.tabbrowser-tab[busy] .tab-loading-burst {
+	background-size: 20% 100% !important;
+	transition: background-size 0.3s ease-out !important;
+}
+
+.tabbrowser-tab[busy][progress] .tab-loading-burst {
+	background-size: 100% 100% !important;
+	transition-duration: 2s !important;
+}
+
+.tabbrowser-tab[bursting] .tab-loading-burst {
+	background-size: 100% 100% !important;
+	transition-duration: 0.5s !important;
+}
+
+
+
+
+
+
+
+
+
+/* ############################################ */
+/**
+ * Mimic Opera tab separators.
+ * Shorter and more subtle. 
+ * https://github.com/TinyRaindrop/Firefox-UI-customization/blob/master/Tabs/subtle_tab_separators.css
+ */
+/* ############################################ */
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+  margin-bottom: 9px !important;
+  margin-top: 9px !important;
+}
+
+.tabbrowser-tab:hover::after,
+.tabbrowser-tab[multiselected]::after,
+#tabbrowser-tabs:not([movingtab]) > .tabbrowser-tab[beforehovered]::after,
+#tabbrowser-tabs:not([movingtab]) > .tabbrowser-tab[before-multiselected]::after { 
+  visibility: hidden !important;
+}
+  
+#tabbrowser-tabs:not([movingtab]) > .tabbrowser-tab[beforeselected-visible]::after,
+#tabbrowser-tabs[movingtab] > .tabbrowser-tab[visuallyselected]::before,
+.tabbrowser-tab[visuallyselected]::after,
+.tabbrowser-tab:last-of-type::after {
+  visibility: hidden !important;
+}
+
+
+
+
+
+
+
+
+
+/* ############################################ */
+/*How can i change the color of the blue line on top of the selected tab?
+*https://www.reddit.com/r/FirefoxCSS/comments/6yzvkz/how_can_i_change_the_color_of_the_blue_line_on/
+*/
+/* ############################################ */
+.tab-line{ background-color: #e95420 !important; }
+
+
+
+
+
+
+
+
+
+
+/* ############################################ */
+/* remove borders from url bar
+* https://www.reddit.com/r/FirefoxCSS/comments/e7yu5h/suddenly_the_dividers_between_tabs_and_search_box/
+*/
+/* ############################################ */
+#urlbar {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: var(--toolbar-bgcolor) !important;  // to match toolbar's bg color
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############################################ */
+/* side tabs tree style tab - using sidebery addon
+* https://www.reddit.com/r/FirefoxCSS/comments/ep8r6j/side_tabs_on_hover_using_sidebery_addon/
+*/
+/* ############################################ */
+/*
+:root {
+  --sidebar-min-width: 33px;
+  --sidebar-visible-width: 300px;
+}
+
+#sidebar-header {
+  overflow: hidden !important;
+}
+
+#tabbrowser-tabs {
+  visibility: collapse !important;
+}
+
+#sidebar-box #sidebar-header {
+  display: none !important;
+}
+
+#sidebar,
+#sidebar-header {
+  position: relative !important;
+  min-width: var(--sidebar-min-width) !important;
+  max-width: var(--sidebar-min-width) !important;
+transition: .2s ease .25s;
+  z-index:1;
+}
+
+#sidebar-box:hover :-moz-any(#sidebar,#sidebar-header) {
+  background-color: var(--toolbar-bgcolor) !important;
+  min-width: var(--sidebar-visible-width) !important;
+  max-width: var(--sidebar-visible-width) !important;
+  margin-right: calc((var(--sidebar-visible-width) - var(--sidebar-min-width)) * -1) !important;
+  z-index:1;
+  position: relative !important;
+transition: .2s ease .25s;
+
+}
+
+#TabsToolbar > .toolbar-items,
+#TabsToolbar > .titlebar-spacer{ visibility: hidden }
+#nav-bar{ margin-top: -32px; margin-right: 20px; padding: 0px 150px 0px 0px !important; }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############################################ */
+/* hide border lines between pinned tabs */
+/* https://www.reddit.com/r/FirefoxCSS/comments/e7yu5h/suddenly_the_dividers_between_tabs_and_search_box/
+*/
+/* ############################################ */
+/*
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+	border-left: none !important;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############################################ */
+/* AUTOHIDE NAV BAR */
+/*
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+
+
+#navigator-toolbox {
+    position: relative;
+    z-index: 1;
+    height: 3px;
+    margin-bottom: -3px;
+    opacity: 0;
+    overflow: hidden;
+}
+#navigator-toolbox:hover {
+    height: auto;
+    margin-bottom: 0px;
+    opacity: 1;
+    overflow: show;
+}
+#content-deck{
+    position:relative;
+    z-index: 0;
+}
+*/
+/* Suppress Link Destination Overlay */
+/*
+#statuspanel[type="overLink"] {
+  display: none !important;
+}
+
+#tracking-protection-icon-container {
+display: none;
+}
+*/
+/* ############################################ */
+
