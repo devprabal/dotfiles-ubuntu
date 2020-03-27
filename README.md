@@ -9,6 +9,9 @@
 
 To change folder color (for all folders), [install papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders)
 
+`papirus-folders -C bluegrey  --theme Papirus-Light`
+
+
 **Extensions** - 
 
 - Dash to panel (setings available in the dir)
@@ -47,6 +50,11 @@ sudo apt remove gnome-shell-extension-ubuntu-dock -y
 
 ### Install **flatpaks** whenever you can instead of snaps.
 However, the vscode I installed was a snap because it was directly packaged by Microsoft. Its corresponding flatpak wasn't directly packaged by MSoft.
+
+
+Also, telegram desktop was installed from their binary released on github because the hardcoded-tray icon (in relation to Papirus icon pack) was not recommended for portable(flat, sanp, appimage, etc.) applications. Also, telegram has autoupdate feature from within the app so it is not an issue if it is installed via the binary.
+[See my issue and suggested hacks for telegram on PapirusDevelopmentTeam](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/2106#)
+
  - install vlc flat and snap and see the difference.
  
 *(Flats work more snappily and support hidpi and gnome-theming. Also Papirus icon theme can not find desktop icon path for snaps because they are hardcoded but can do so for flats).*
