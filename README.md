@@ -323,3 +323,10 @@ Right click any folder to get the option to change the color after restarting na
 dconf dump / > dconf-backup.txt
 ```
 
+---
+
+I feel good that the PapirusDevelopmentTeam works to solve my issues too. 
+1. [Icon Request](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/2105)
+2. [Telegram Issue hardcode tray icon](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/2106)
+
+---
