@@ -351,7 +351,7 @@ active-plugins=['modelines', 'filebrowser', 'spell', 'time', 'docinfo']
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/devpogi/Documents/Ricing'
+virtual-root='file:///home/devpogi/.themes/Adwaita-violet-dark/gtk-3.0'
 
 [org/gnome/gedit/preferences/editor]
 auto-indent=true
@@ -436,16 +436,16 @@ thumbnail-limit=uint64 50
 [org/gnome/nautilus/window-state]
 initial-size=(1297, 805)
 maximized=false
-sidebar-width=316
+sidebar-width=250
 start-with-sidebar=true
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=true
-night-light-last-coordinates=(26.846099280057594, 80.920599999999993)
+night-light-last-coordinates=(26.828100719942405, 80.920599999999993)
 night-light-schedule-automatic=false
 night-light-schedule-from=0.0
 night-light-schedule-to=23.983333333333334
-night-light-temperature=uint32 4478
+night-light-temperature=uint32 4520
 
 [org/gnome/settings-daemon/plugins/media-keys]
 home=['<Super>e']
@@ -461,10 +461,10 @@ hinting='slight'
 
 [org/gnome/shell]
 app-picker-view=uint32 1
-command-history=['r']
+command-history=['lg', 'r']
 disable-user-extensions=false
 enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'ubuntu-dock@ubuntu.com', 'clipboard-indicator@tudmotu.com', 'unite@hardpixel.eu', 'panel-osd@berend.de.schouwer.gmail.com', 'dash-to-panel@jderose9.github.com', 'ubuntu-appindicators@ubuntu.com', 'appindicatorsupport@rgcjonas.gmail.com', 'hide-universal-access@akiirui.github.io', 'quicklists@maestroschan.fr']
-favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'gnome-control-center.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Software.desktop', 'code_code.desktop', 'org.gnome.gedit.desktop', 'FoxitReader.desktop', 'org.gnome.Terminal.desktop', 'org.telegram.desktop.desktop']
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'gnome-control-center.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Software.desktop', 'code_code.desktop', 'org.gnome.gedit.desktop', 'FoxitReader.desktop', 'org.gnome.Terminal.desktop', 'telegramdesktop.desktop']
 had-bluetooth-devices-setup=true
 
 [org/gnome/shell/app-switcher]
@@ -517,7 +517,8 @@ ubuntu-dash-pinned-app-list=['Home', 'ArcMenu_Home', 'ArcMenu_Home', 'Documents'
 vert-separator=true
 
 [org/gnome/shell/extensions/clipboard-indicator]
-history-size=10
+history-size=50
+topbar-preview-size=20
 
 [org/gnome/shell/extensions/dash-to-dock]
 click-action='minimize-or-overview'
@@ -525,8 +526,26 @@ click-action='minimize-or-overview'
 [org/gnome/shell/extensions/dash-to-panel]
 appicon-margin=12
 appicon-padding=4
+dot-color-1='#5294e2'
+dot-color-2='#5294e2'
+dot-color-3='#5294e2'
+dot-color-4='#5294e2'
+dot-color-dominant=true
+dot-color-override=false
+dot-color-unfocused-1='#5294e2'
+dot-color-unfocused-2='#5294e2'
+dot-color-unfocused-3='#5294e2'
+dot-color-unfocused-4='#5294e2'
 dot-position='TOP'
+dot-size=3
+dot-style-focused='SEGMENTED'
+dot-style-unfocused='SEGMENTED'
+focus-highlight=true
+focus-highlight-color='#eeeeee'
+focus-highlight-dominant=true
+focus-highlight-opacity=50
 force-check-update=false
+group-apps=true
 hotkeys-overlay-combo='TEMPORARILY'
 intellihide=false
 intellihide-behaviour='MAXIMIZED_WINDOWS'
@@ -535,13 +554,20 @@ location-clock='STATUSLEFT'
 panel-position='TOP'
 panel-size=42
 preview-middle-click-close=false
-show-apps-icon-file=''
+secondarymenu-contains-showdetails=false
+show-activities-button=false
+show-appmenu=false
+show-apps-icon-file='/home/devpogi/Documents/rice/extensions setting files/ubuntu.png'
+show-apps-icon-side-padding=8
 show-show-apps-button=true
+show-showdesktop-button=false
+stockgs-keep-dash=false
+stockgs-panelbtn-click-only=false
 taskbar-locked=true
 taskbar-position='LEFTPANEL'
-trans-bg-color='#293542'
-trans-panel-opacity=0.45000000000000001
-trans-use-custom-bg=true
+trans-bg-color='#555753'
+trans-panel-opacity=0.59999999999999998
+trans-use-custom-bg=false
 trans-use-custom-opacity=false
 window-preview-padding=6
 window-preview-title-font-color='#ffffff'
@@ -589,14 +615,14 @@ window-buttons-placement='auto'
 window-buttons-theme='vimix'
 
 [org/gnome/shell/extensions/user-theme]
-name=''
+name='Yaru'
 
 [org/gnome/shell/window-switcher]
 app-icon-mode='both'
 current-workspace-only=false
 
 [org/gnome/software]
-check-timestamp=int64 1585199341
+check-timestamp=int64 1585288699
 
 [org/gnome/system/location]
 enabled=true
@@ -643,8 +669,12 @@ window-position=[26, 23]
 window-size=[800, 596]
 
 [org/gtk/settings/color-chooser]
-custom-colors=[(0.74509803921568629, 0.80784313725490198, 0.8666666666666667, 1.0), (0.92156862745098034, 0.92156862745098034, 0.92156862745098034, 1.0), (0.9137254901960784, 0.32941176470588229, 0.12549019607843137, 1.0), (0.8666666666666667, 0.28235294117647058, 0.078431372549019607, 1.0), (0.20000000000000001, 0.20000000000000001, 0.20000000000000001, 1.0), (0.8666666666666667, 0.28235294117647047, 0.078431372549019523, 1.0), (0.74117647058823533, 0.90196078431372551, 0.98431372549019602, 0.90000000000000002), (0.94117647058823528, 0.94117647058823528, 0.94117647058823528, 1.0)]
-selected-color=(true, 1.0, 1.0, 1.0, 1.0)
+custom-colors=[(0.19215686274509805, 0.40782787823300526, 0.62743572137026016, 1.0), (0.77279914529914506, 0.43594444444444447, 0.98333333333333339, 1.0), (0.62745098039215697, 0.39215686274509798, 0.84705882352941175, 1.0), (0.62745098039215652, 0.12549019607843134, 0.94117647058823528, 1.0), (0.55686274509803924, 0.55686274509803924, 0.55686274509803924, 1.0), (0.16078431372549021, 0.20784313725490197, 0.25882352941176473, 1.0), (0.74509803921568629, 0.80784313725490198, 0.8666666666666667, 1.0), (0.92156862745098034, 0.92156862745098034, 0.92156862745098034, 1.0)]
+selected-color=(true, 0.62745098039215652, 0.12549019607843134, 0.94117647058823528, 1.0)
+
+[org/gtk/settings/debug]
+enable-inspector-keybinding=true
+inspector-warning=true
 
 [org/gtk/settings/file-chooser]
 clock-format='24h'
@@ -658,7 +688,7 @@ sort-column='modified'
 sort-directories-first=true
 sort-order='descending'
 type-format='category'
-window-position=(0, 45)
+window-position=(0, 48)
 window-size=(1920, 991)
 
 [org/yorba/shotwell/preferences/window]
