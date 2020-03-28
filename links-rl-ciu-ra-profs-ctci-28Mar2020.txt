@@ -1,0 +1,60 @@
+https://medium.com/@curiousily/solving-an-mdp-with-q-learning-from-scratch-deep-reinforcement-learning-for-hackers-part-1-45d1d360c120 | Solving an MDP with Q-Learning from scratch — Deep Reinforcement Learning for Hackers (Part 1)
+https://levelup.gitconnected.com/build-a-taxi-driving-agent-in-a-post-apocalyptic-world-using-reinforcement-learning-machine-175b1edd8f69 | Build a taxi driving agent in a post-apocalyptic world using Reinforcement Learning | Machine Learning from Scratch (Part VIII)
+https://github.com/wagonhelm/Reinforcement-Learning-Introduction/blob/master/Solving%20Taxi.ipynb | Reinforcement-Learning-Introduction/Solving Taxi.ipynb at master · wagonhelm/Reinforcement-Learning-Introduction
+https://www.youtube.com/watch?v=nNK4xKkAapM&list=PLyqSpQzTE6M_FwzHFAyf4LSkz_IjMyjD9&index=7 | Introduction to Immediate RL - YouTube
+https://www.cse.iitm.ac.in/~ravi/courses/Reinforcement%20Learning.html | Balaraman Ravindran
+https://www.kaggle.com/angps95/intro-to-reinforcement-learning-with-openai-gym | Intro to Reinforcement Learning with OpenAi Gym | Kaggle
+http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html | Teaching
+https://www.youtube.com/watch?v=2pWv7GOvuf0 | RL Course by David Silver - Lecture 1: Introduction to Reinforcement Learning - YouTube
+https://medium.com/@apoddar573/making-your-own-custom-environment-in-gym-c3b65ff8cdaa | Making a custom environment in gym - Ashish Poddar - Medium
+https://github.com/apoddar573/Tic-Tac-Toe-Gym_Environment | apoddar573/Tic-Tac-Toe-Gym_Environment: This is an implementation of the tic-tac-toe game as a gym environment. It can be used to make the computer learn playing the Tic-Tac-Toe game.
+https://www.analyticsvidhya.com/blog/2019/04/introduction-deep-q-learning-python/ | Introduction to Deep Q-Learning for Reinforcement Learning (in Python)
+https://github.com/markusbuchholz/deep-reinforcement-learning/tree/master/dqn | deep-reinforcement-learning/dqn at master · markusbuchholz/deep-reinforcement-learning
+https://stackoverflow.com/questions/45068568/how-to-create-a-new-gym-environment-in-openai | machine learning - How to create a new gym environment in OpenAI? - Stack Overflow
+https://teachablemachine.withgoogle.com/ | Teachable Machine
+https://www.reddit.com/r/cpp_questions/comments/fgsrfv/how_to_create_objects_of_template_class_like_the/ | How to create objects of template class like the style used in Java? : cpp_questions
+https://godbolt.org/ | Compiler Explorer
+https://www.quora.com/Can-I-work-under-a-professor-at-IITs-as-research-assistant-without-being-admitted-to-institution | (76) Can I work under a professor at IITs as research assistant without being admitted to institution? - Quora
+https://www.reddit.com/search/?q=research%20assistant%20india | reddit.com: search results - research assistant india
+https://www.reddit.com/r/AskAcademia/ | AskAcademia: Questions for Academics
+https://onedrive.live.com/?id=A4E2D4A0A8203D73%21105&cid=A4E2D4A0A8203D73 | Documents - OneDrive
+http://10.5.1.1:1000/keepalive?0c030e0705080764 | Firewall Authentication Keepalive Window
+
+https://cvit.iiit.ac.in/ | Home
+https://iith.ac.in/~vineethnb/pubs.html | Vineeth N B: Publications
+https://iith.ac.in/~vineethnb/students.html | Vineeth N B: Students
+https://vinaypn.github.io/pubs_short/ | List of Publications Vinay P. Namboodiri
+https://sci-hub.tw/10.1016/j.patrec.2018.06.034 | Sci-Hub | Improving multiclass classification by deep networks using DAGSVM and Triplet Loss. Pattern Recognition Letters, 112, 184–190 | 10.1016/j.patrec.2018.06.034
+https://www.isical.ac.in/~pnc_ccsd/1320-5291-1-PB.pdf | 5064a - 1320-5291-1-PB.pdf
+https://eklavyaweb.wordpress.com/2016/05/15/external-students-read-before-you-write/ | External Students — Please read this before you write | Eklavya
+https://eklavyaweb.wordpress.com/ | Eklavya | Learning to learn yourself
+http://www.cse.iitd.ernet.in/~chetan/publications.html | Chetan Arora: Publications
+http://www.cse.iitd.ernet.in/~chetan/papers/icip18-dn-fooling.pdf | icip18-dn-fooling.pdf
+https://www.cs.ubc.ca/~conati/publications.php | Cristina Conati - publications
+http://www.cse.iitd.ernet.in/~mausam/index.html | http://www.cse.iitd.ernet.in/~mausam/index.html
+http://www.cse.iitd.ernet.in/~parags/research.html | Parag Singla
+http://www.iitkgp.ac.in/department/CS/faculty/cs-sandipc#resp-tab3 | Indian Institute of Technology Kharagpur
+http://cse.iitkgp.ac.in/~sourangshu/publications.html | Sourangshu Bhattacharya's Homepage
+http://cse.iitkgp.ac.in/~adas/publications.php | Abir Das
+http://www.iitkgp.ac.in/department/CS/faculty/cs-ppd#resp-tab3 | Indian Institute of Technology Kharagpur
+https://www.cse.iitk.ac.in/users/piyush/index.html | Piyush Rai: Home
+http://10.5.1.1:1000/keepalive?0406000f000b0b6b | http://10.5.1.1:1000/keepalive?0406000f000b0b6b
+http://parimal.iitr.ac.in/publications | Parimal Lab
+http://www.iitg.ac.in/cse/csefaculty | Department of Computer Science and Engineering | Indian Institute of Technology Guwahati, Guwahati – 781039
+https://drive.google.com/drive/u/0/my-drive | My Drive - Google Drive
+
+http://192.168.225.1/# | AM Telecom Co.,Ltd.
+
+https://en.wikipedia.org/wiki/Antiviral_drug | Antiviral drug - Wikipedia
+https://en.wikipedia.org/wiki/Coronavirus | Coronavirus - Wikipedia
+https://en.wikipedia.org/wiki/Coronavirus_disease_2019 | Coronavirus disease 2019 - Wikipedia
+https://cen.acs.org/physical-chemistry/computational-chemistry/Artificial-intelligence-finds-drug-that-could-fight-Wuhan-coronavirus/98/i6 | Two groups use artificial intelligence to find compounds that could fight the novel coronavirus
+https://www.usatoday.com/story/news/health/2020/03/20/coronavirus-allergies-cold-flu-strep-these-differences/2882663001/ | Coronavirus, allergies, cold, flu or strep? These are the differences
+https://drive.google.com/drive/u/0/my-drive | My Drive - Google Drive
+https://drive.google.com/drive/u/2/folders/134f3z94w2tlPfP3Ff1TSLQSbDDkjQ-7s | 8th sem notes - Google Drive
+https://github.com/devprabal/CTCI/tree/master/Trees%20and%20Graphs/include | CTCI/Trees and Graphs/include at master · devprabal/CTCI
+https://stackoverflow.com/questions/6946217/how-to-access-the-contents-of-a-vector-from-a-pointer-to-the-vector-in-c | How to access the contents of a vector from a pointer to the vector in C++? - Stack Overflow
+https://www.google.com/search?client=ubuntu&channel=fs&q=iterate+through+vector+c%2B%2B&ie=utf-8&oe=utf-8 | iterate through vector c++ - Google Search
+https://stackoverflow.com/questions/4890497/how-do-i-iterate-over-a-constant-vector | c++ - How do I iterate over a Constant Vector? - Stack Overflow
+https://cs.stackexchange.com/questions/9380/why-is-push-back-in-c-vectors-constant-amortized | algorithms - Why is push_back in C++ vectors constant amortized? - Computer Science Stack Exchange
+
