@@ -1,6 +1,6 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block, everything else may go below.
+# confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
@@ -104,26 +104,29 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias n="nnn"
-# for time
-alias systime="date +%R"
-alias termclock="ruby ~/term-clock/term-clock.rb"
+
+alias gitlog="git log --all --graph --decorate --oneline"
+alias gits="git status"
+alias ls="lsd"
+
 unsetopt nomatch
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # Keypad
 # 0 . Enter
 bindkey -s "^[Op" "0"
 bindkey -s "^[Ol" "."
 bindkey -s "^[OM" "^M"
 
-ctci=/home/devpogi/Documents/scratch-codes/learning-C++/CTCI
+# named directories
+
 rice=/home/devpogi/Documents/rice
-epi=/home/devpogi/Documents/scratch-codes/learning-C++/EPI
-ciu=/home/devpogi/Documents/scratch-codes/learning-C++/CIU
-: ~ctci ~rice ~epi ~ciu
+ctci=/home/devpogi/Documents/CTCI
+: ~rice ~ctci
 
+# youtube-dl installed by pip3 using option --user
+# pip3 install --user --upgrade youtube-dl
+# so that location has to be put on PATH
+export PATH="/home/devpogi/.local/bin:$PATH"
 
-# for using the alias and conda, PATHs defined in .bashrc
-source ~/.bashrc
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
