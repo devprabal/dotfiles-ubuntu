@@ -4,7 +4,7 @@ When using flatpak apps, you may notice that the apps do not sometimes follow th
 
 This is not noticeable when you are already using a theme for which flatpak has a theme-extension, example Yaru, Adwaita.
 
-$ `flatpak list` will show something like this if Yaru theme is installed by flatpak automatically for its apps.
+`$ flatpak list` will show something like this if Yaru theme is installed by flatpak automatically for its apps.
 ```
 Yaru-light Gtk Theme                         org.gtk.Gtk3theme.Yaru-light                                          3.22        system
 ```
