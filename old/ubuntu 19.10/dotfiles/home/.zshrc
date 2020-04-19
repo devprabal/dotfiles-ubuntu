@@ -75,7 +75,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -107,14 +107,14 @@ source $ZSH/oh-my-zsh.sh
 
 alias gitlog="git log --all --graph --decorate --oneline"
 alias gits="git status"
-alias ls="lsd"
 
-unsetopt nomatch
+
+#unsetopt nomatch
 
 # Keypad
-# 0 . Enter
-bindkey -s "^[Op" "0"
-bindkey -s "^[Ol" "."
+# 0 . Enter (only the third, Enter doesn't seem to work by default)
+#bindkey -s "^[Op" "0"
+#bindkey -s "^[Ol" "."
 bindkey -s "^[OM" "^M"
 
 # named directories
@@ -127,6 +127,15 @@ ctci=/home/devpogi/Documents/CTCI
 # pip3 install --user --upgrade youtube-dl
 # so that location has to be put on PATH
 export PATH="/home/devpogi/.local/bin:$PATH"
+
+# cargo bin to $PATH for apps developed in rust (cloned mostly in $HOME from github)
+export PATH="/home/devpogi/.cargo/bin:$PATH"
+
+# the conda package manager (of anaconda) got installed with its instructions (path) in .bashrc
+# so conda in zsh will say command not found
+# I will not source .bashrc at the end of .zshrc
+# So instead, to run conda, I will type bash
+# Then I will perform conda commands in the bash session opened in a zsh session.
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
