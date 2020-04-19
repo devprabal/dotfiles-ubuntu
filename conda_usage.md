@@ -10,6 +10,6 @@ So instead, to run `conda`, I will type `$ bash` in the zsh terminal window.
 
 Then I will perform conda commands in the bash session opened in a zsh session.
 
-A screenshot show these steps - 
+A screenshot shows these steps - 
 
 ![conda activate *env_name*](assets/conda_usage.png)
