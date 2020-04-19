@@ -1,7 +1,10 @@
 # Linux ricing
 
-> The older configs have been moved [here](old/ubuntu%19.10/README.md)
+> The older configs have been moved [here.](https://github.com/devprabal/rice/blob/master/old/ubuntu%2019.10/README.md)
+
 > Most setups/tricks from the old still do work.
+
+> If you are new to ricing, I suggest you to start by implementing/reading the old [`README.md`](https://github.com/devprabal/rice/blob/master/old/ubuntu%2019.10/README.md) file because most of the setups have been taken from the `old/` and built upon it or modified upon.
 
 However, I am setting up fresh installs and setups on my *Pavi* (Pavilion15 cx0140tx).
 
