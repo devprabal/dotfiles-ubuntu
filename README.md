@@ -16,6 +16,6 @@ Linux Pavilion 5.4.0-24-generic #28-Ubuntu SMP Thu Apr 9 22:16:42 UTC 2020 x86_6
 1. [Make flatpaks to follow system theme and cursors.](flatpak%20override%20theme.md)
 2. [`conda activate env` command usage for my system.](conda_usage.md)
 3. [`deactivate auto activate env conda` command usage on my Pavilion (my system).](conda%20auto%20activate%20base%20false%20command.md)
-4. [Zotero uses papirus icon theme and shows up in App Launcher/ desktop entry](workaround%20for%20zotero%20papirus%20icon.md)
+4. [Zotero uses papirus icon theme and shows up in App Launcher/ desktop entry](zotero_setup.md)
 5. [gnome-tweaks](tweaks.md)
 6. [extensions](shell-extensions.md)

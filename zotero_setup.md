@@ -1,3 +1,5 @@
+## Zotero setup and configs
+
 ### This guide is for installing the same zotero workflow/environment from the previous computer to a new computer
 
 1. First you need to do this - [copy zotero extracted folder to `~/opt/`](https://www.zotero.org/support/installation#linux)
@@ -30,6 +32,8 @@ ln -s ~/opt/Zotero_linux-x86_64/zotero.desktop ~/.local/share/applications/zoter
 
 10. Avoid doing anything in `/usr/bin` or `/usr/share/applications`
 
+### Changing icon to that provided by Papirus
+
 11. Find papirus icons by `find . -type f -iname '*zotero*' -print` in `~/.icons/Papirus` in terminal.
 You will see 6 svg icon names.
 
@@ -45,4 +49,12 @@ The terminal is in `~/.icons/Papirus` and the icons are named 48, 32, 22, and so
 
 14. Now the changed icon will appear in the App Drawer and also you can launch zotero from the App drawer.
 
+### Scaling on HiDPI screens.
 
+15. Zotero follows firefox css styles. So like I once did in firefox to improve scaling (to get bigger text and icons), we have to do the same in zotero (not in firefox now).
+
+16. Open zotero. Go to Edit->Preferences->Advanced->config editor
+
+17. Search for `layout.css.devPixelsPerPx` and set it to 1.4 or whatever suits you.
+
+> [Source: https://forums.zotero.org](https://forums.zotero.org/discussion/comment/351771#Comment_351429)
