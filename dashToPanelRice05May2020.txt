@@ -1,4 +1,5 @@
 [/]
+click-action='TOGGLE-SHOWPREVIEW'
 dot-color-1='#5294e2'
 dot-color-2='#5294e2'
 dot-color-3='#5294e2'
@@ -24,7 +25,10 @@ intellihide-key-toggle-text='<Alt>a'
 intellihide-show-in-fullscreen=true
 intellihide-use-pressure=false
 location-clock='STATUSLEFT'
+middle-click-action='LAUNCH'
 panel-position='BOTTOM'
+shift-click-action='MINIMIZE'
+shift-middle-click-action='LAUNCH'
 show-apps-icon-file=''
 show-showdesktop-button=false
 taskbar-position='LEFTPANEL'

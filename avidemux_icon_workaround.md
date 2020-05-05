@@ -49,3 +49,7 @@ So that will solve the issue without the workaround described above.
 Also, when the new changes get on gnome-look, download that new icon set and replace the old ones in `~/.icons`.
 
 Also, edit the the line which has `Icon=avidemux` to `Icon=avidemux_icon` in `/usr/share/applications/avidemux2.7_qt5.desktop`.
+
+---
+
+The issue has been solved by the release of latest icon pack from papirus on 1 May 2020.
