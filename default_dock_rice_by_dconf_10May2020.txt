@@ -1,0 +1,14 @@
+[/]
+background-color='#2E3440'
+background-opacity=1.0
+click-action='minimize-or-previews'
+custom-background-color=true
+custom-theme-running-dots-border-color='#3584e4'
+custom-theme-running-dots-border-width=1
+custom-theme-running-dots-color='#3584e4'
+dash-max-icon-size=48
+dock-fixed=true
+dock-position='LEFT'
+multi-monitor=false
+running-indicator-dominant-color=true
+running-indicator-style='DASHES'

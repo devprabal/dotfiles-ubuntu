@@ -71,3 +71,33 @@ https://renenyffenegger.ch/notes/development/languages/C-C-plus-plus/GCC/create-
 https://stackoverflow.com/questions/16693273/how-do-i-create-a-library | c++ - How do I create a library? - Stack Overflow
 https://cs.stackexchange.com/questions/9380/why-is-push-back-in-c-vectors-constant-amortized | algorithms - Why is push_back in C++ vectors constant amortized? - Computer Science Stack Exchange
 
+https://www.youtube.com/channel/UCEOGtxYTB6vo6MQ-WQ9W_nQ | Bo Qian - YouTube
+https://docs.google.com/spreadsheets/d/1HvU3jpZj0aHZkG86ISU51SF69WS8rM1kA1P-J9bdXiw/edit#gid=0 | Daily Analysis - Google Sheets
+https://paperswithcode.com/task/combinatorial-optimization | Combinatorial Optimization - Papers With Code
+https://www.google.com/search?client=ubuntu&channel=fs&q=remove+last+character+from+string+c%2B%2B&ie=utf-8&oe=utf-8 | remove last character from string c++ - Google Search
+https://stackoverflow.com/questions/3610933/iterating-c-vector-from-the-end-to-the-begin | Iterating C++ vector from the end to the begin - Stack Overflow
+https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/ | Command line arguments in C/C++ - GeeksforGeeks
+https://stackoverflow.com/questions/7026350/whats-char-const-argv | c++ - What's char* const argv[]? - Stack Overflow
+https://stackoverflow.com/questions/20944784/why-is-conversion-from-string-constant-to-char-valid-in-c-but-invalid-in-c | Why is conversion from string constant to 'char*' valid in C but invalid in C++ - Stack Overflow
+https://stackoverflow.com/questions/890535/what-is-the-difference-between-char-const-and-const-char | c - What is the difference between char * const and const char *? - Stack Overflow
+http://dlib.net/dnn_introduction_ex.cpp.html | dlib C++ Library - dnn_introduction_ex.cpp
+https://github.com/tomdbar/eco-dqn | tomdbar/eco-dqn: Implementation of ECO-DQN as reported in "Exploratory Combinatorial Optimization with Reinforcement Learning".
+http://mnemstudio.org/path-finding-q-learning-tutorial.htm | A Painless Q-Learning Tutorial
+https://www.reddit.com/r/reinforcementlearning/comments/gedt6q/q_table_not_converging/ | Q table not converging : reinforcementlearning
+https://ai.stackexchange.com/questions/20959/q-table-not-converging-for-an-arbitrary-experiment | reinforcement learning - Q table not converging for an arbitrary experiment - Artificial Intelligence Stack Exchange
+https://ai.stackexchange.com/questions/3596/q-learning-algorithm-not-converging | Q Learning Algorithm not converging - Artificial Intelligence Stack Exchange
+https://ai.stackexchange.com/questions/11679/why-doesnt-q-learning-converge-when-using-function-approximation | Why doesn't Q-learning converge when using function approximation? - Artificial Intelligence Stack Exchange
+http://jsonviewer.stack.hu/ | Online JSON Viewer
+https://www.geeksforgeeks.org/read-json-file-using-python/ | Read JSON file using Python - GeeksforGeeks
+https://www.tutorialspoint.com/matplotlib/matplotlib_bar_plot.htm | Matplotlib - Bar Plot - Tutorialspoint
+https://wiki.ubuntu.com/NotificationDevelopmentGuidelines#icons | NotificationDevelopmentGuidelines - Ubuntu Wiki
+https://wiki.archlinux.org/index.php/Desktop_notifications | Desktop notifications - ArchWiki
+https://www.tecmint.com/run-repeat-linux-command-every-x-seconds/ | How to Run or Repeat a Linux Command Every X Seconds Forever
+https://unix.stackexchange.com/questions/223778/how-to-run-an-infinite-loop-in-the-background | bash - How to run an infinite loop in the background - Unix & Linux Stack Exchange
+https://www.cyberciti.biz/faq/bash-infinite-loop/ | Bash Infinite Loop Examples - nixCraft
+https://stackoverflow.com/questions/3532718/extract-string-from-string-using-regex-in-the-terminal | bash - Extract string from string using RegEx in the Terminal - Stack Overflow
+https://regexr.com/ | RegExr: Learn, Build, & Test RegEx
+https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/ | 4 Bash If Statement Examples ( If then fi, If then else fi, If elif else fi, Nested if )
+http://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#index-_0024_0024 | Bash Reference Manual
+https://www.google.com/search?client=ubuntu&channel=fs&q=kill+all+commands+related+to+a+script+if+the+script+is+killed&ie=utf-8&oe=utf-8 | kill all commands related to a script if the script is killed - Google Search
+

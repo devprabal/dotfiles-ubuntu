@@ -9,6 +9,9 @@
 - [ ] msee (via npm) -- not so great
 - [ ] gnome firefox look -- not using now
 - [ ] not ricing many things, not using many extensions, keeping it raw with minimal tweaks and focusing on codes/development more.
+- [ ] gnome-sushi
+- [ ] [battery wallpaper](https://github.com/adi1090x/battery-wallpaper)
+- [ ] OneTab firefox addon configuration, since it cannot be saved? Or can it be? See in profiles folder of mozilla?
 
 ### update or add configs or screenshots
 
@@ -46,6 +49,9 @@
 				.
 ```
 - [ ] sourcing of .zshrc in sourcing-zshrc.sh is not working, try it by modifying named directories.
+- [ ] Change font color in dashToPanel by [custom color workaround for indicator icons, clock, date in dashToPanel extension] (https://github.com/home-sweet-gnome/dash-to-panel/issues/727)
+- [ ] installed (by `apt`) libgtk-3-dev, meson, sassc for generating css files from Adwaita scss files in `~/.themes`. Do they need to be removed or leave them as they are for one day when I make my first GTK app?
+- [ ] gnome-shell ricing with sassc (scss) for Adwaita-blue-riced.
 
 ### try something new
 
@@ -76,6 +82,18 @@ $
 - [x] [Gnome firefox look](https://github.com/rafaelmardojai/firefox-gnome-theme)
 
 - [ ] custom icon pack from many different icon packs, [reddit comment](https://www.reddit.com/r/Ubuntu/comments/g9rg7r/unity_on_2004_is_smoother_than_you_would_think/foxshh9?utm_source=share&utm_medium=web2x).
+
+- [ ] Bash Script for battery with acpi is incomplete. Add to startup, fix sleep starting its own pid, fix PID number of the script to assist in killing it.
+- [ ] For bigger font and symbolic icon size of datetime and battery on panel edit the following lines to gnome-shell.css of the shell theme you are using (`~/.themes/mytheme/gnome-shell/gnome-shell.css`). Find a way to improve visual effect (maybe drawing a box) on hover. Done. See the changed css file having "edited by me"  comment.
+
+```
+#panel .panel-button {
+
+  font-weight: bold;
+  color: white;
+  font-size: 21px;
+```
+
 
 ### github.io (static site for `rice`)
 
