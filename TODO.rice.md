@@ -12,6 +12,7 @@
 - [ ] gnome-sushi
 - [ ] [battery wallpaper](https://github.com/adi1090x/battery-wallpaper)
 - [ ] OneTab firefox addon configuration, since it cannot be saved? Or can it be? See in profiles folder of mozilla?
+- [ ] snap install netron for visualizing neural networks.
 
 ### update or add configs or screenshots
 
@@ -25,7 +26,7 @@
 ### solve issues
 
 - [x] [avidemux new icons with new Papirus icon theme](avidemux_icon_workaround.md)
-- [ ] `nautilus-terminal` not working (installed in `~/.local/lib/python3.8/site-packages`)
+- [ ] `nautilus-terminal` not working (installed in `~/.local/lib/python3.8/site-packages`) Issue has been solved in a reply on github. Just need to install `python3-nautilus` because I installed it with pip3.
 - [ ] need to source `~/.profile` for each new terminal window for `npm` and `node` packages. Also the `node-modules` dir has many directories corresponding to installed packages, which are not on PATH, how to include node-modules on PATH such that the bin folders of the modules get automatically included. The directory structure looks like - 
 
 ```console
@@ -51,7 +52,7 @@
 - [ ] sourcing of .zshrc in sourcing-zshrc.sh is not working, try it by modifying named directories.
 - [ ] Change font color in dashToPanel by [custom color workaround for indicator icons, clock, date in dashToPanel extension] (https://github.com/home-sweet-gnome/dash-to-panel/issues/727)
 - [ ] installed (by `apt`) libgtk-3-dev, meson, sassc for generating css files from Adwaita scss files in `~/.themes`. Do they need to be removed or leave them as they are for one day when I make my first GTK app?
-- [ ] gnome-shell ricing with sassc (scss) for Adwaita-blue-riced.
+- [ ] gnome-shell ricing with sassc (scss) for Adwaita-blue-riced, fix workspace column round border, running app background color on dash. Take screenshots and post to r/unixporn.
 
 ### try something new
 
