@@ -13,6 +13,8 @@
 - [ ] [battery wallpaper](https://github.com/adi1090x/battery-wallpaper)
 - [ ] OneTab firefox addon configuration, since it cannot be saved? Or can it be? See in profiles folder of mozilla?
 - [ ] snap install netron for visualizing neural networks.
+- [ ] `flatpak ps` to view running flatpak processes
+- [ ] `flatpak override --filesystem=~/.themes` for flatpak apps to follow themes installed in (`~/.themes`) instead of Yaru or Adwaita. `cd /var/lib/flatpak/overrides` to see the changes in file `global`.
 
 ### update or add configs or screenshots
 
@@ -81,11 +83,10 @@ $
 ```
 
 - [x] [Gnome firefox look](https://github.com/rafaelmardojai/firefox-gnome-theme)
-
 - [ ] custom icon pack from many different icon packs, [reddit comment](https://www.reddit.com/r/Ubuntu/comments/g9rg7r/unity_on_2004_is_smoother_than_you_would_think/foxshh9?utm_source=share&utm_medium=web2x).
-
 - [ ] Bash Script for battery with acpi is incomplete. Add to startup, fix sleep starting its own pid, fix PID number of the script to assist in killing it.
 - [ ] For bigger font and symbolic icon size of datetime and battery on panel edit the following lines to gnome-shell.css of the shell theme you are using (`~/.themes/mytheme/gnome-shell/gnome-shell.css`). Find a way to improve visual effect (maybe drawing a box) on hover. Done. See the changed css file having "edited by me"  comment.
+
 
 ```
 #panel .panel-button {
@@ -94,7 +95,8 @@ $
   color: white;
   font-size: 21px;
 ```
-
+- [ ] Make something, maybe a bot, to manage all saved items in telegram and Info in WhatsApp together and consistently. It must also be able to search through it.
+- [ ] Zotero first major task offloading research has left so many files to read again, some of which are codes help, latex help, rl, etc. Something like a kerko app can be made to view and search through this archive, henceforth named as big bang.
 
 ### github.io (static site for `rice`)
 
