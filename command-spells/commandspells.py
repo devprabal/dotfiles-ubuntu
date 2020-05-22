@@ -9,10 +9,10 @@ def usage_error():
     print("commandspells.py version 1")
     print("Usage: commandspells.py command")
     print("command:\n", end='')
-    print("\tadd   : to add a new command to commands.md file")
-    print("\tview  : to view the contents of commands.md file")
-    print("\tsearch: to search a given command by name saved in commands.md file")
-    #TODO: edit, remove, webview, search
+    print("\tadd   : to add a new command")
+    print("\tview  : to view all or a particular saved command")
+    print("\tsearch: to view a particular saved command")
+    # TODO: edit, remove, webview
 
 
 def add_command():
@@ -38,6 +38,9 @@ def add_command():
     with open('commands.json', 'w') as outfile:
         json.dump(cmdDict, outfile, indent=4)
 
+    return newDict
+
+
 def convert_to_md():
     infile = open('commands.json', 'r')
     fileDict = json.load(infile)
@@ -51,7 +54,7 @@ def convert_to_md():
         else:
             typeDict[x["Type"]].append(x)
 
-    #TODO: update the file for new changes only instead of generating entire file again and again
+    # TODO: update the file for new changes only instead of generating entire file again and again
     with open('commands.md', 'w+') as outfile:
         outfile.write("# Commands\n\n")
         for x in typeDict:
@@ -66,16 +69,21 @@ def convert_to_md():
                 for z in ex:
                     outfile.write("\n\t- `"+z+"`\n\n")
 
+
 def view_single(x):
     string = "**"+x["Name"]+"** | *"+x["Description"]+"*\n\n"
-    string+= "Type: "+x["Type"]+"\n\n"
+    string += "Type: "+x["Type"]+"\n\n"
     string += "Usage:\n"
     for y in x["Examples"]:
-        string+=" - "+y+"\n"
-    with open('tempviewcmd.md','w+') as tempfile:
+        string += " - "+y+"\n"
+    with open('tempviewcmd.md', 'w+') as tempfile:
         tempfile.write(string)
+    # TODO: PATH for pygmentize using subprocess in python
+    # TODO: Write about pygmentize in README for this project
+    # TODO: Make requirements.txt file for dependencies like Pygments
     os.system('pygmentize tempviewcmd.md')
     os.system('rm tempviewcmd.md')
+
 
 def search_cmd(key):
     found = False
@@ -89,131 +97,92 @@ def search_cmd(key):
         if not found:
             print("Command not found.")
 
+
 def make_dummy_json():
     cmdDict = {'commands': []}
     with open('commands.json', 'w+') as f:
         json.dump(cmdDict, f, indent=4)
 
 
-try:
-    choice = sys.argv[1]
-    if choice == "add":
-        if os.path.exists('commands.json'):
-            f = open('commands.json')
-
-            try:
-
-                cmdDict = json.load(f)
-
-                if "commands" in cmdDict:
-                    noOfCommands = len(cmdDict["commands"])
-                    print("Number of commands already present: ", noOfCommands)
-                    f.close()
-                else:
-                    print(
-                        "\"commands\" key not found in the json file \"commands.json\".")
-                    print("Making a new file.")
-                    f.close()
-                    os.system('mv commands.json commands.json.old')
-                    print(
-                        "Your previous \"commands.json\" file was saved as \"commands.json.old\".")
-                    make_dummy_json()
-            except JSONDecodeError:
-
-                f.close()
-                make_dummy_json()
-
-            finally:
-
-                add_command()
-                print("This is your newly added command to remember: ")
-                with open('commands.json', 'r') as infile:
-                    fileDict = json.load(infile)
-                    recentDict = fileDict["commands"][-1]
-                    #TODO: pygmentize
-                    print(recentDict)
-
-        else:
-            make_dummy_json()
-            add_command()
-    elif choice == "view":
-        # TODO: store the output of shell commands using subprocess to find the file commands.md
-        # os.system('which commandspells')
-        # os.system('pygmentize commands.md')
-        # TODO: convert to md from json for better visual display in terminal
-        if os.path.exists('commands.json'):
-            with open('commands.json', 'r') as infile:
-                try:
-                    fileDict = json.load(infile)
-                    if "commands" in fileDict:
-                        if len(fileDict["commands"]) == 0:
-                            print(
-                                "It seems that there are no commands yet in the file.")
-                            print("Try the adding some commands with \"add\".")
-                    # print(fileDict)
-                    # TODO: pygmentize instead of cat
-                        else:
-                            # os.system('cat commands.json')
-                            convert_to_md()
-                            #TODO:Write about pygmentize in README for this project
-                            #TODO: use $(which) with subprocess for PATH of pygmentize
-                            os.system('pygmentize commands.md')
-                    else:
-                        print(
-                            "\"commands\" key not found in the json file \"commands.json\".")
-                        print("Making a new file.")
-                        os.system('mv commands.json commands.json.old')
-                        print(
-                            "Your previous \"commands.json\" file was saved as \"commands.json.old\".")
-                        make_dummy_json()
-                except JSONDecodeError:
-                    print("It seems that there are no commands yet in the file.")
-                    print("Try the adding some commands with \"add\".")
-        else:
-            print("It seems that there are no commands yet in the file.")
-            print("Try the adding some commands with \"add\".")
-            make_dummy_json()
-    elif choice == "search":
+def file_check():
+    # TODO: subprocess ('which commandspells') for absolute path of project where other files like commands.md and commands.json live
+    noOfCommands = 0
+    if os.path.exists('commands.json'):
+        f = open('commands.json')
         try:
-            key = sys.argv[2]
-            if os.path.exists('commands.json'):
-                with open('commands.json', 'r') as infile:
-                    try:
-                        fileDict = json.load(infile)
-                        if "commands" in fileDict:
-                            if len(fileDict["commands"]) == 0:
-                                print(
-                                "It seems that there are no commands yet in the file.")
-                                print("Try the adding some commands with \"add\".")
-                            else:
-                                search_cmd(key)
-                        else:
-                            print(
-                            "\"commands\" key not found in the json file \"commands.json\".")
-                            print("Making a new file.")
-                            os.system('mv commands.json commands.json.old')
-                            print(
-                            "Your previous \"commands.json\" file was saved as \"commands.json.old\".")
-                            make_dummy_json()
-                    except JSONDecodeError:
-                        print("It seems that there are no commands yet in the file.")
-                        print("Try the adding some commands with \"add\".")
+            cmdDict = json.load(f)
+            if "commands" in cmdDict:
+                noOfCommands = len(cmdDict["commands"])
+                print("Number of commands already present: ", noOfCommands)
+                f.close()
             else:
-                print("It seems that there are no commands yet in the file.")
-                print("Try the adding some commands with \"add\".")
+                print(
+                    "\"commands\" key not found in the json file \"commands.json\".")
+                print("Making a new file.")
+                f.close()
+                os.system('mv commands.json commands.json.old')
+                print(
+                    "Your previous \"commands.json\" file was saved as \"commands.json.old\".")
                 make_dummy_json()
-        except IndexError:
-            print("Usage: search command-name")
+        except JSONDecodeError:  # reading from an empty existing file
+            print("It seems that there are no commands yet in the file.")
+            f.close()
+            make_dummy_json()
     else:
-        # FIXME: create a class for this exception
-        # raise UsageError
+        print("It seems that there are no commands yet in the file.")
+        make_dummy_json()
+    return noOfCommands
+
+
+def main():
+    try:
+        choice = sys.argv[1]
+        if choice == "add":
+            noOfCommands = file_check()
+            newDict = add_command()
+            print("This is your newly added command to remember: ")
+            view_single(newDict)
+        elif choice == "view":
+            try:
+                key = sys.argv[2]
+                noOfCommands = file_check()
+                if noOfCommands == 0:
+                    print("Try the adding some commands with \"add\".")
+                else:
+                    search_cmd(key)
+            except IndexError:  # view all commands
+                noOfCommands = file_check()
+                if noOfCommands == 0:
+                    print("Try the adding some commands with \"add\".")
+                else:
+                    convert_to_md()
+                    # TODO: PATH for pygmentize using subprocess in python
+                    # TODO: relative path for commands.md using subprocess (which commandspells) to find the parent folder
+                    os.system('pygmentize commands.md')
+        elif choice == "search":
+            try:
+                key = sys.argv[2]
+                noOfCommands = file_check()
+                if noOfCommands == 0:
+                    print("Try the adding some commands with \"add\".")
+                else:
+                    search_cmd(key)
+            except IndexError:
+                print("Usage: search command-name")
+        else:
+            # TODO: create a class for this exception
+            # raise UsageError
+            usage_error()
+    except IndexError:
+        # TODO: create a class for this exception
         usage_error()
-except IndexError:
-    # FIXME: create a class for this exception
-    usage_error()
-    # try:
-    #     raise UsageError
+        # try:
+        #     raise UsageError
+        # except UsageError:
+        #     pass
     # except UsageError:
     #     pass
-# except UsageError:
-#     pass
+
+
+if __name__ == "__main__":
+    main()
