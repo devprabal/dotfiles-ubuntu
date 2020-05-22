@@ -15,6 +15,8 @@
 - [ ] snap install netron for visualizing neural networks.
 - [ ] `flatpak ps` to view running flatpak processes
 - [ ] `flatpak override --filesystem=~/.themes` for flatpak apps to follow themes installed in (`~/.themes`) instead of Yaru or Adwaita. `cd /var/lib/flatpak/overrides` to see the changes in file `global`.
+- [ ] Write about useful commands in [commands.md](commands.md).
+- [ ] 
 
 ### update or add configs or screenshots
 
@@ -86,6 +88,7 @@ $
 - [ ] custom icon pack from many different icon packs, [reddit comment](https://www.reddit.com/r/Ubuntu/comments/g9rg7r/unity_on_2004_is_smoother_than_you_would_think/foxshh9?utm_source=share&utm_medium=web2x).
 - [ ] Bash Script for battery with acpi is incomplete. Add to startup, fix sleep starting its own pid, fix PID number of the script to assist in killing it.
 - [ ] For bigger font and symbolic icon size of datetime and battery on panel edit the following lines to gnome-shell.css of the shell theme you are using (`~/.themes/mytheme/gnome-shell/gnome-shell.css`). Find a way to improve visual effect (maybe drawing a box) on hover. Done. See the changed css file having "edited by me"  comment.
+- [ ] Make a script to add commands to [commands.md](commands.md).
 
 
 ```
