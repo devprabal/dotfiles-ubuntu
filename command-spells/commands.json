@@ -72,6 +72,17 @@
                 "pygmentize a.cpp",
                 "cat a.cpp | pygmentize"
             ]
+        },
+        {
+            "Name": "cat",
+            "Description": "outputs the contents of a file to stdout or redirects it",
+            "Type": "bash",
+            "Examples": [
+                "cat a.cpp",
+                "cat file.txt > file2.txt",
+                "cat file.txt >> file2.txt",
+                "cat .bashrc"
+            ]
         }
     ]
 }

@@ -30,3 +30,13 @@
 
 - [Python String](https://www.geeksforgeeks.org/python-string-split/)
 
+- [curses — Terminal handling for character-cell displays — Python 3.8.3 documentation](https://docs.python.org/3/library/curses.html#module-curses.textpad)
+
+- [How to modify a dictionary value by editing the already existing value, not re-entering the entire thing again. : learnpython](https://www.reddit.com/r/learnpython/comments/gp0tuv/how_to_modify_a_dictionary_value_by_editing_the/)
+
+- [Show default value for editing on Python input possible? - Stack Overflow](https://stackoverflow.com/questions/2533120/show-default-value-for-editing-on-python-input-possible/2533142?stw=2#2533142)
+
+- [readline — GNU readline interface — Python 3.8.3 documentation](https://docs.python.org/3/library/readline.html)
+
+- [Python Lambda](https://www.w3schools.com/python/python_lambda.asp)
+

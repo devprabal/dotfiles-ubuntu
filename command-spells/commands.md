@@ -58,6 +58,22 @@
 
 	- `pregp gedit`
 
+- **cat** | *outputs the contents of a file to stdout or redirects it*
+
+	Usage:
+
+
+	- `cat a.cpp`
+
+
+	- `cat file.txt > file2.txt`
+
+
+	- `cat file.txt >> file2.txt`
+
+
+	- `cat .bashrc`
+
 ## nautilus
 
 - **nautilus** | *launches gnome-files*

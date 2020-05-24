@@ -2,17 +2,20 @@ import sys
 import os
 import json
 from json import JSONDecodeError
+import readline
 # from exception import UsageError
-
+#TODO: how to handle Ctrl+C interrupt at any stage ?
 
 def usage_error():
+    # TODO: do this with argparse library
     print("commandspells.py version 1")
     print("Usage: commandspells.py command")
     print("command:\n", end='')
     print("\tadd   : to add a new command")
     print("\tview  : to view all or a particular saved command")
     print("\tsearch: to view a particular saved command")
-    # TODO: edit, remove, webview
+    print("\tedit  : to edit a particular saved command")
+    # TODO: remove, webview
 
 
 def add_command():
@@ -28,18 +31,51 @@ def add_command():
     newDict['Examples'] = []
     example = input('Enter at least one example: ')
     while(example != ''):
-        newDict['Examples'].append(example)
-        example = input('Enter other example or press ENTER: ')
+        newDict['Examples'].append(example.strip())
+        example = input('Enter other example or press ENTER to finish: ')
+    write_to_commands_json_file(newDict)
+    return newDict
 
+def write_to_commands_json_file(newCommandDict, replace_index=None):
     cmdDict = {}
     with open('commands.json', 'r') as infile:
         cmdDict = json.load(infile)
-        cmdDict['commands'].append(newDict)
+        if replace_index == None:
+            cmdDict['commands'].append(newCommandDict)
+        else:
+            cmdDict['commands'][replace_index] = newCommandDict
     with open('commands.json', 'w') as outfile:
         json.dump(cmdDict, outfile, indent=4)
 
-    return newDict
 
+def rlinput(prompt, prefill=''):
+    readline.set_startup_hook(lambda: readline.insert_text(prefill))
+    try:
+        return input(prompt)
+    finally:
+      readline.set_startup_hook()
+
+def edit_command(foundDict):
+    newDict = {}
+    cmdName = rlinput("Name: ",foundDict["Name"])
+    newDict['Name'] = cmdName
+    cmdDes = rlinput("Description: ",foundDict['Description'])
+    newDict['Description'] = cmdDes
+    cmdType = rlinput('Type: \nType can be \'bash\', \'conda\', \'apt\', \'flatpak\', \'anyOtherApp\': ',foundDict["Type"])
+    newDict['Type'] = cmdType
+    newDict['Examples'] = []
+    for i in range(0, len(foundDict["Examples"])):
+        example = rlinput('Example'+str(i)+': ', foundDict["Examples"][i])
+        newDict['Examples'].append(example.strip())
+    moreExamples = input("\nAdd more examples? [y/N] ")
+    if moreExamples.strip() in ['y', 'Y', 'yes', 'Yes', 'YES']:
+        example = input("Enter an example: ")
+        while(example != ''):
+            newDict['Examples'].append(example.strip())
+            example = input("Enter another example or press ENTER to finish: ")
+        return newDict
+    else:
+        return newDict
 
 def convert_to_md():
     infile = open('commands.json', 'r')
@@ -69,7 +105,7 @@ def convert_to_md():
                 for z in ex:
                     outfile.write("\n\t- `"+z+"`\n\n")
 
-
+#TODO: don't convert to md and print, instead use colors from xterm to show the output without file I/O operations
 def view_single(x):
     string = "**"+x["Name"]+"** | *"+x["Description"]+"*\n\n"
     string += "Type: "+x["Type"]+"\n\n"
@@ -87,15 +123,22 @@ def view_single(x):
 
 def search_cmd(key):
     found = False
+    index = None
     with open('commands.json', 'r') as infile:
         fileDict = json.load(infile)
-        for x in fileDict["commands"]:
-            if x["Name"] == key:
-                view_single(x)
+        foundDict = {}
+        for i in range(0, len(fileDict["commands"])):
+            if fileDict["commands"][i]["Name"] == key:
+                view_single(fileDict["commands"][i])
+                foundDict = fileDict["commands"][i]
                 found = True
+                index = i
                 break
         if not found:
             print("Command not found.")
+            return foundDict, index
+        else:
+            return foundDict, index
 
 
 def make_dummy_json():
@@ -149,7 +192,7 @@ def main():
                 if noOfCommands == 0:
                     print("Try the adding some commands with \"add\".")
                 else:
-                    search_cmd(key)
+                    foundDict, index = search_cmd(key)
             except IndexError:  # view all commands
                 noOfCommands = file_check()
                 if noOfCommands == 0:
@@ -166,9 +209,25 @@ def main():
                 if noOfCommands == 0:
                     print("Try the adding some commands with \"add\".")
                 else:
-                    search_cmd(key)
+                    foundDict, index = search_cmd(key)
             except IndexError:
                 print("Usage: search command-name")
+        elif choice == "edit":
+            try:
+                key = sys.argv[2]
+                noOfCommands = file_check()
+                if noOfCommands == 0:
+                    print("Try adding some commands with \"add\".")
+                else:
+                    foundDict, index = search_cmd(key)
+                    if index != None and foundDict != {}:
+                        print("Editing...")
+                        newDict = edit_command(foundDict)
+                        print("After editing...")
+                        view_single(newDict)
+                        write_to_commands_json_file(newDict, index)
+            except IndexError:
+                print("Usage: edit command-name")
         else:
             # TODO: create a class for this exception
             # raise UsageError
