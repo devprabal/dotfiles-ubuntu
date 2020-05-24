@@ -1,6 +1,6 @@
-### Make flatpak apps follow system theme and cursor icons
+### Make flatpak apps to follow user theme and cursor icons
 
-When using flatpak apps, you may notice that the apps do not sometimes follow the system theme.
+When using flatpak apps, you may notice that the apps do not sometimes follow the system or user installed theme.
 
 This is not noticeable when you are already using a theme for which flatpak has a theme-extension, example Yaru, Adwaita.
 
