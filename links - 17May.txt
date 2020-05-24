@@ -71,3 +71,7 @@ https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/ | 4 Bash If Sta
 http://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#index-_0024_0024 | Bash Reference Manual
 https://www.google.com/search?client=ubuntu&channel=fs&q=kill+all+commands+related+to+a+script+if+the+script+is+killed&ie=utf-8&oe=utf-8 | kill all commands related to a script if the script is killed - Google Search
 
+https://docs.google.com/spreadsheets/d/1HvU3jpZj0aHZkG86ISU51SF69WS8rM1kA1P-J9bdXiw/edit#gid=0 | Daily Analysis - Google Sheets
+https://docs.python.org/3/library/curses.html#module-curses.textpad | curses — Terminal handling for character-cell displays — Python 3.8.3 documentation
+https://pyvideo.org/europython-2019/natural-language-processing-with-neural-networks.html | PyVideo.org · Natural language processing with neural networks.
+https://pyvideo.org/pycon-us-2020/automate-the-boring-stuff-with-slackbot.html | PyVideo.org · Automate the Boring Stuff with Slackbot
