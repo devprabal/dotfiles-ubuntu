@@ -16,7 +16,8 @@
 - [ ] `flatpak ps` to view running flatpak processes
 - [ ] `flatpak override --filesystem=~/.themes` for flatpak apps to follow themes installed in (`~/.themes`) instead of Yaru or Adwaita. `cd /var/lib/flatpak/overrides` to see the changes in file `global`.
 - [ ] Write about useful commands in [commands.md](commands.md).
-- [ ] 
+- [ ] draculatheme [for gnome-terminal, gedit, pygmentize](https://draculatheme.com/) also write about dropping the class file of dracula into pygments/style subpackage for using dracula style
+- [ ] .dir_colors in ~, installed during dracula-gnome-theme as an optional utility. But it is good and customizable.
 
 ### update or add configs or screenshots
 
@@ -112,3 +113,5 @@ $
 - [ ] [writing in github flavoured markdown](https://help.github.com/en/github/writing-on-github)
 - [ ] markdown rendering engine
 - [ ] pandoc tool and its command line utilities
+- [ ] watch zathura workflow video on [youtube](https://www.youtube.com/watch?v=OC8FZW56MEc)
+- [ ] sofiaben's [dotfiles](https://github.com/sofiabelen/dotfiles)

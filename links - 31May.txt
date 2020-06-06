@@ -71,7 +71,37 @@ https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/ | 4 Bash If Sta
 http://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#index-_0024_0024 | Bash Reference Manual
 https://www.google.com/search?client=ubuntu&channel=fs&q=kill+all+commands+related+to+a+script+if+the+script+is+killed&ie=utf-8&oe=utf-8 | kill all commands related to a script if the script is killed - Google Search
 
-https://docs.google.com/spreadsheets/d/1HvU3jpZj0aHZkG86ISU51SF69WS8rM1kA1P-J9bdXiw/edit#gid=0 | Daily Analysis - Google Sheets
-https://docs.python.org/3/library/curses.html#module-curses.textpad | curses — Terminal handling for character-cell displays — Python 3.8.3 documentation
-https://pyvideo.org/europython-2019/natural-language-processing-with-neural-networks.html | PyVideo.org · Natural language processing with neural networks.
-https://pyvideo.org/pycon-us-2020/automate-the-boring-stuff-with-slackbot.html | PyVideo.org · Automate the Boring Stuff with Slackbot
+https://www.google.com/search?client=ubuntu&channel=fs&q=acpi+status&ie=utf-8&oe=utf-8 | acpi status - Google Search
+https://regexone.com/lesson/matching_characters | RegexOne - Learn Regular Expressions - Lesson 3: Matching specific characters
+https://regexr.com/ | RegExr: Learn, Build, & Test RegEx
+https://unix.stackexchange.com/questions/223778/how-to-run-an-infinite-loop-in-the-background | bash - How to run an infinite loop in the background - Unix & Linux Stack Exchange
+https://www.tecmint.com/ps-command-examples-for-linux-process-monitoring/ | 30 Useful 'ps Command' Examples for Linux Process Monitoring
+https://stackoverflow.com/questions/30493424/what-is-the-difference-between-a-process-pid-ppid-uid-euid-gid-and-egid | ruby - What is the difference between a Process' pid, ppid, uid, euid, gid and egid? - Stack Overflow
+https://superuser.com/questions/363169/ps-how-can-i-recursively-get-all-child-process-for-a-given-pid | linux - ps: How can i recursively get all child process for a given pid - Super User
+https://stackoverflow.com/questions/17583578/what-command-means-do-nothing-in-a-conditional-in-bash | What command means "do nothing" in a conditional in Bash? - Stack Overflow
+https://ryanstutorials.net/bash-scripting-tutorial/bash-functions.php | Functions - Bash Scripting Tutorial
+https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux | bash - How to change the output color of echo in Linux - Stack Overflow
+https://en.wikipedia.org/wiki/ANSI_escape_code | ANSI escape code - Wikipedia
+https://unix.stackexchange.com/questions/23111/what-is-the-eval-command-in-bash | shell - What is the "eval" command in bash? - Unix & Linux Stack Exchange
+https://www.google.com/search?client=ubuntu&channel=fs&q=sys%2Fpower+to+show+battery+status&ie=utf-8&oe=utf-8 | sys/power to show battery status - Google Search
+
+https://www.reddit.com/r/reinforcementlearning/comments/gmp4nm/below_you_will_find_a_link_to_a_zoom_recording/ | Below you will find a link to a Zoom recording where our team discusses Reinforcement Learning. Topics covered: Markov Decision Process, Double Q-Learning, the math behind Q-Learning, and the Bellman Equation. We also walk through the algorithms and provide coded examples. : reinforcementlearning
+https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15381-s06/www/nn.pdf | Microsoft PowerPoint - nn.ppt - nn.pdf
+https://arxiv.org/pdf/1602.04062.pdf | 1602.04062.pdf
+https://towardsdatascience.com/can-neural-networks-really-learn-any-function-65e106617fc6 | Can neural networks solve any problem? - Towards Data Science
+http://neuralnetworksanddeeplearning.com/chap4.html | Neural networks and deep learning
+https://datascience.stackexchange.com/questions/37378/what-are-kernel-initializers-and-what-is-their-significance | machine learning - What are kernel initializers and what is their significance? - Data Science Stack Exchange
+https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html | Reinforcement Learning (DQN) Tutorial — PyTorch Tutorials 1.5.0 documentation
+https://github.com/revenol/DDLO | revenol/DDLO: Distributed Deep Learning-based Offloading for Mobile Edge Computing Networks
+https://github.com/revenol/DROO | revenol/DROO: Deep Reinforcement Learning for Online Computation Offloading in Wireless Powered Mobile-Edge Computing Networks
+https://www.kaggle.com/devprabal/dqn-major/edit | dqn-major | Kaggle
+https://github.com/SamPlvs/Deep-Reinforcement-Learning/tree/master/DQN | Deep-Reinforcement-Learning/DQN at master · SamPlvs/Deep-Reinforcement-Learning
+https://medium.com/@jonathan_hui/rl-dqn-deep-q-network-e207751f7ae4 | RL — DQN Deep Q-network - Jonathan Hui - Medium
+https://blog.griddynamics.com/deep-reinforcement-learning-for-supply-chain-and-price-optimization/ | Deep reinforcement learning for supply chain and price optimization
+https://stackoverflow.com/questions/22054698/python-modifying-list-inside-a-function | python; modifying list inside a function - Stack Overflow
+https://datascience.stackexchange.com/questions/15087/how-do-i-pass-data-into-keras | python - How do i pass data into keras? - Data Science Stack Exchange
+https://www.quora.com/How-do-you-explain-the-term-%E2%80%9Cepochs%E2%80%9D-used-in-Keras | (132) How do you explain the term “epochs” used in Keras? - Quora
+https://neptune.ai/blog/keras-metrics | Keras Metrics: Everything You Need To Know | Neptune blog
+https://towardsdatascience.com/building-models-with-keras-bbe6dcfdad31 | Building Models with Keras - Towards Data Science
+https://stackoverflow.com/questions/54689503/keras-validation-accuracy-is-0-and-stays-constant-throughout-the-training | machine learning - Keras validation accuracy is 0, and stays constant throughout the training - Stack Overflow
+https://stackoverflow.com/questions/48775305/what-function-defines-accuracy-in-keras-when-the-loss-is-mean-squared-error-mse/48788577#48788577 | machine learning - What function defines accuracy in Keras when the loss is mean squared error (MSE)? - Stack Overflow

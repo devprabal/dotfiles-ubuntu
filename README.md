@@ -86,3 +86,93 @@ See [gnome-tweaks](tweaks.md)
 See [gnome-shell extensions](gnome-shell-extensions.md)
 
 ---
+
+### Zathura
+
+A minimal and vim-like pdf viewer which is light and extremely configurable.
+
+The configuration file for zathura has to be set up in `~/.config/zathura/` as `zathurarc` which is a plain text file which is read by zathura line by line (# comment lines ignored). 
+
+The documentation provides ways to set up colors, window sizes, etc.
+
+See [documentation - zathura](https://pwmt.org/projects/zathura/documentation/)
+
+See [documentation - girara, where you can set window sizes, etc.](https://pwmt.org/projects/girara/options/)
+
+[my configuration](dotfiles/zathurarc)
+
+---
+
+### Dracula colorscheme
+
+Recently, I have been trying out dracula color scheme for many apps. This is because they look vivid and clear, not because I am a fan of dark-themes, which I am not.
+
+However, I have the following apps/programs using this colorscheme - 
+
+- gnome-terminal
+- VSCode (Switched to inbuilt light-theme Light+ again)
+- gedit (Switched to Solarised again)
+- telegram
+- pygmentize
+
+All the ports and instructions for installation can be found on the official [website](https://draculatheme.com/).
+
+Installation for pygments -
+(This is different from that mentioned in the website. This is what I did.)
+>  For example, if your style should be called "mondrian", name the class MondrianStyle, put it into the file mondrian.py and this file into the pygments.styles subpackage directory. 
+> 
+[Source: pygments docs](https://pygments.org/docs/styles/)
+
+The git dir which is cloned from the [draculatheme for pygments](https://draculatheme.com/pygments) has a python file `dracula.py` which has a class `DraculaStyle`. Just copy that into `~/.local/lib/python3.8/site-packages/pygments/styles` because I have installed Pygments using `pip3 install --user Pygments`.
+
+---
+
+### Commandline 
+
+I have written some frequently used and important (and easily forgettable) commands [here](commandline.md).
+
+---
+
+### PS1
+
+I changed my PS1 (in `.bashrc` file) to the following - 
+
+```bash
+PS1=$'\\[\e[1;37m\\]\uf31b \w \\[\e[0m\\]\\[\e[0;32m\\]\uf155\\[\e[0m\\] '
+```
+
+For this to work, you must have encoding as UTF-8 enabled in gnome-terminal, and the font which it uses should be [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf)
+
+You can write `\uABCD` for unincode represented by `ABCD` in the `$'.....'` expression. 
+
+[Source: stackoverflow](https://unix.stackexchange.com/questions/25903/awesome-symbols-and-characters-in-a-bash-prompt)
+
+[Source: nixcraft](https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
+
+For searching glyphs/icons and their unicode pattern use the website [nerdfornts.com/cheat-sheet](https://www.nerdfonts.com/cheat-sheet).
+
+`\e` represent `033` escape character.
+
+`\w` represents the full path of working dir.
+
+`\\[\e[1;37m\\]` represents a color/bold/highlight/underline etc. which can be looked up from [stackoverflow](https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux/#answer-28938235)
+
+---
+
+### Anki 
+
+Still not used, just installed. 
+
+---
+
+### Celluloid 
+
+I was installing [mpv](https://github.com/mpv-player/mpv-build) from git-master but couldn't. 
+
+Somehow, I stumbled upon gnome-mpv, now renamed to celluloid, which is a GTK+ frontend of mpv, built on mpv. So, I installed that from flathub.
+
+I have still not experimented/played-around with it. 
+
+---
+
+### 

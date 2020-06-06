@@ -1,4 +1,5 @@
 Pavi's backlight and hardware theme color #881798
+dash to panel's carbon black #2E3440
 carbon bluish black #293542
 grey black #242730
 flat remix grey black #272A34
