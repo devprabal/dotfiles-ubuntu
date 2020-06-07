@@ -17,7 +17,7 @@ See [gnome-shell extensions](gnome-shell-extensions.md)
 
 - Now using [this purple theme - Stas](https://t.me/themes/132)
 	- Check the "Tile background option" in the settings.
-- Switched to normal light theme with Pavi color (#881798) again
+- Normal light theme with Pavi color (#881798).
 - [dracula theme](https://draculatheme.com/telegram)
 - [This purple island theme is also good](https://t.me/themes/174)
 

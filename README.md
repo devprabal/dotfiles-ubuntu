@@ -10,12 +10,12 @@
 
 However, I am setting up fresh installs and setups on my *Pavi* (Pavilion15 cx0140tx).
 
-![Basic System Overview](appearance/neofetch_24May2020.png)
+![Basic System Overview](appearance/neofetch.png)
 *About Pavi, by [neofetch](https://github.com/dylanaraps/neofetch)*
 
 
 
-The sections below deals mainly with the workflow and newly learned things/apps/concepts - 
+The sections below deal mainly with the workflow and newly learned things/apps/concepts - 
 
 For appearance, look and theming of these apps or the desktop, see [appearance.md](appearance.md)
 
