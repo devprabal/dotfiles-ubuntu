@@ -1,4 +1,5 @@
 Pavi's backlight and hardware theme color #881798
+telegram-theme-purple #7F6ED3
 dash to panel's carbon black #2E3440
 carbon bluish black #293542
 grey black #242730

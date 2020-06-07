@@ -15,13 +15,9 @@ However, I am setting up fresh installs and setups on my *Pavi* (Pavilion15 cx01
 
 
 
-These are the newly learned things or new setups - 
+The sections below deals mainly with the workflow and newly learned things/apps/concepts - 
 
----
-
-### Make flatpaks to follow user theme and cursors.
-
-See [flatpak override theme.md](flatpak%20override%20theme.md)
+For appearance, look and theming of these apps or the desktop, see [appearance.md](appearance.md)
 
 ---
 
@@ -55,18 +51,6 @@ If you'd prefer that conda's base environment not be activated on startup, set t
 
 ---
 
-### Make Zotero show up in App Launcher/desktop entry, use papirus icon theme and scale for HiDPI screens
-
-See [Zotero_setup.md](zotero_setup.md)
-
----
-
-### App not using Papirus Icons
-
-See [this](avidemux_icon_workaround.md) to solve the issue with any other app in a similar way.
-
----
-
 ### VSCode sync
 
 Settings, configurations, extensions for VSCode is synced by the following VSCode extension -
@@ -74,16 +58,6 @@ Settings, configurations, extensions for VSCode is synced by the following VSCod
 [Settings sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
 It saves your settings, etc. in your github gist from which they can be downloaded on a new system or fresh install.
-
----
-
-### Ah! the tweaks
-
-See [gnome-tweaks](tweaks.md)
-
-### And the extensions
-
-See [gnome-shell extensions](gnome-shell-extensions.md)
 
 ---
 
@@ -103,59 +77,9 @@ See [documentation - girara, where you can set window sizes, etc.](https://pwmt.
 
 ---
 
-### Dracula colorscheme
-
-Recently, I have been trying out dracula color scheme for many apps. This is because they look vivid and clear, not because I am a fan of dark-themes, which I am not.
-
-However, I have the following apps/programs using this colorscheme - 
-
-- gnome-terminal
-- VSCode (Switched to inbuilt light-theme Light+ again)
-- gedit (Switched to Solarised again)
-- telegram
-- pygmentize
-
-All the ports and instructions for installation can be found on the official [website](https://draculatheme.com/).
-
-Installation for pygments -
-(This is different from that mentioned in the website. This is what I did.)
->  For example, if your style should be called "mondrian", name the class MondrianStyle, put it into the file mondrian.py and this file into the pygments.styles subpackage directory. 
-> 
-[Source: pygments docs](https://pygments.org/docs/styles/)
-
-The git dir which is cloned from the [draculatheme for pygments](https://draculatheme.com/pygments) has a python file `dracula.py` which has a class `DraculaStyle`. Just copy that into `~/.local/lib/python3.8/site-packages/pygments/styles` because I have installed Pygments using `pip3 install --user Pygments`.
-
----
-
 ### Commandline 
 
 I have written some frequently used and important (and easily forgettable) commands [here](commandline.md).
-
----
-
-### PS1
-
-I changed my PS1 (in `.bashrc` file) to the following - 
-
-```bash
-PS1=$'\\[\e[1;37m\\]\uf31b \w \\[\e[0m\\]\\[\e[0;32m\\]\uf155\\[\e[0m\\] '
-```
-
-For this to work, you must have encoding as UTF-8 enabled in gnome-terminal, and the font which it uses should be [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf)
-
-You can write `\uABCD` for unincode represented by `ABCD` in the `$'.....'` expression. 
-
-[Source: stackoverflow](https://unix.stackexchange.com/questions/25903/awesome-symbols-and-characters-in-a-bash-prompt)
-
-[Source: nixcraft](https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
-
-For searching glyphs/icons and their unicode pattern use the website [nerdfornts.com/cheat-sheet](https://www.nerdfonts.com/cheat-sheet).
-
-`\e` represent `033` escape character.
-
-`\w` represents the full path of working dir.
-
-`\\[\e[1;37m\\]` represents a color/bold/highlight/underline etc. which can be looked up from [stackoverflow](https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux/#answer-28938235)
 
 ---
 
@@ -172,6 +96,59 @@ I was installing [mpv](https://github.com/mpv-player/mpv-build) from git-master 
 Somehow, I stumbled upon gnome-mpv, now renamed to celluloid, which is a GTK+ frontend of mpv, built on mpv. So, I installed that from flathub.
 
 I have still not experimented/played-around with it. 
+
+---
+
+### bash scripts
+
+Some basic bash commands and syntax to help create small scripts and which should be remembered.
+
+```bash
+#!/bin/bash
+eval "echo 2.4+1 | bc"
+echo "NO of arguments = $#"
+if [ -e $1 ]
+then 
+echo yes
+else
+echo no
+fi
+if [ -z $2 ]
+then echo empty
+else echo not empty
+fi
+if [ "$3" = "" ]
+then echo third positional arg empty
+else
+echo third positional arg not empty
+fi
+# head -n 12 hi.txt | tail -n $(( 12 -5+1 )) 5 to 12 lines
+var1=$(which python3)
+if [ "$var1" != "" ]
+then echo found; echo $var1
+else
+echo notfound
+fi
+dialog --backtitle "back" --title "title" --infobox "info" 10 20
+echo -e "\033[0;31m fi"
+read -p "enter" varname
+echo $varname
+### getopts command
+while getopts ":ht" opt; do
+  case ${opt} in
+    h ) # process option h
+    echo h
+      ;;
+    t ) # process option t
+    echo t
+      ;;
+    \? ) echo "Usage: cmd [-h] [-t]"
+      ;;
+  esac
+done
+```
+
+For a good and comprehensive study, read the website [ryanstutorial](https://ryanstutorials.net/bash-scripting-tutorial/)
 
 ---
 

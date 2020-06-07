@@ -37,10 +37,12 @@ The good thing about this is, if you change the file, keeping zathura open, then
 #### pandoc
 
 ```bash
-pandoc rice.md -o /tmp/op.pdf --variable urlcolor='[HTML]{0000ff}'
+pandoc -f gfm -t pdf ~/Documents/rice/README.md -o /tmp/op.pdf -V geometry:margin=0.5in -V urlcolor='[HTML]{0000ff}'
 ```
 
 Convert markdown to pdf and show the url links int the converted pdf file using the color #0000ff.
+
+`-t` denotes "to" format `-f` denotes "from" format.
 
 [Source: github](https://github.com/jgm/pandoc/issues/2581)
 
