@@ -136,3 +136,11 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+## For Dracula theme dir colors for gnome-terminal (from https://draculatheme.com/gnome-terminal)
+eval `dircolors /home/devpogi/.dir_colors/dircolors`
+
+## My Custom PS1, require Hack Nerd Font as font and encoding Unicode-8 to be enabled in the gnome-terminal
+PS1=$'\\[\e[1;37m\\]\uf31b \w \\[\e[0m\\]\\[\e[0;32m\\]\uf155\\[\e[0m\\] '
+
+
+
