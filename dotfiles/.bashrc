@@ -142,5 +142,16 @@ eval `dircolors /home/devpogi/.dir_colors/dircolors`
 ## My Custom PS1, require Hack Nerd Font as font and encoding Unicode-8 to be enabled in the gnome-terminal
 PS1=$'\\[\e[1;37m\\]\uf31b \w \\[\e[0m\\]\\[\e[0;32m\\]\uf155\\[\e[0m\\] '
 
+## for colored man pages, taken from archwiki
+man() {
+    LESS_TERMCAP_md=$'\e[01;31m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[01;44;33m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_us=$'\e[01;32m' \
+    command man "$@"
+}
 
-
+## for git status on PS1, starship installed via curl from their github webpage
+eval "$(starship init bash)"

@@ -17,7 +17,7 @@ See [gnome-shell extensions](gnome-shell-extensions.md)
 
 - Now using [this purple theme - Stas](https://t.me/themes/132)
 	- Check the "Tile background option" in the settings.
-- Normal light theme with Pavi color (#881798).
+- Normal light theme with Pavi color (#881798).story
 - [dracula theme](https://draculatheme.com/telegram)
 - [This purple island theme is also good](https://t.me/themes/174)
 
@@ -108,3 +108,21 @@ See [this](avidemux_icon_workaround.md) to solve the issue with any other app in
 See [Zotero_setup.md](zotero_setup.md)
 
 ---
+
+### Increase Grub font size
+
+```bash
+sudo grub-mkfont --output=/boot/grub/fonts/Hack24.pf2 --size=24 /home/devpogi/.fonts/Hack\ Regular\ Nerd\ Font\ Complete.ttf
+```
+
+where the output file name can be anything, and I have placed it inside the fonts dir in the grub dir. The Hack Nerd Font from `~/.fonts/` is used as input font.
+
+Then, edit `/etc/default/grub` and add the following line to it - 
+
+```bash
+GRUB_FONT=/boot/grub/fonts/Hack24.pf2
+```
+
+---
+
+### 

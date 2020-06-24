@@ -18,6 +18,11 @@
 - [ ] Write about useful commands in [commands.md](commands.md).
 - [ ] draculatheme [for gnome-terminal, gedit, pygmentize](https://draculatheme.com/) also write about dropping the class file of dracula into pygments/style subpackage for using dracula style
 - [ ] .dir_colors in ~, installed during dracula-gnome-theme as an optional utility. But it is good and customizable.
+- [ ] pdf readers - zathura, okular, foxit, xournalpp.
+- [ ] qutebrowser
+- [ ] [goodreads bash client](https://github.com/danishprakash/goodreadsh.git)
+- [ ] archwiki
+- [ ] [starship for git status on PS1](https://starship.rs/) 
 
 ### update or add configs or screenshots
 
@@ -27,6 +32,7 @@
 - [ ] [code section highlights](https://stackoverflow.com/questions/20303826/highlight-bash-shell-code-in-markdown)
 - [ ] add `~/.profile` to dotfiles along with `.zsh` and `.bashrc`
 - [ ] add in [conda_usage.md](conda_usage.md) the other way to activate env using conda even in zsh by conda init command.
+- [ ] see .bash_history and write some commands (like flatpak run --branch=master org.gnome.Evince ) in commandline.md. Move content from cheatsheet (github/cheatsheets) to `commandline.md`.
 
 ### solve issues
 
@@ -106,6 +112,8 @@ $
 
 - [ ] static site generate from `.md` files with [fastpages](https://github.com/fastai/fastpages).
 - [ ] static site generator with hugo.
+- [ ] static site with [surge.sh](surge.sh) ? (nodejs)
+- [ ] gatsby ? (nodejs)
 
 ### reading
 
@@ -115,3 +123,4 @@ $
 - [ ] pandoc tool and its command line utilities
 - [ ] watch zathura workflow video on [youtube](https://www.youtube.com/watch?v=OC8FZW56MEc)
 - [ ] sofiaben's [dotfiles](https://github.com/sofiabelen/dotfiles)
+- [ ] [Journaling in vim with markdown formatting](https://danishpraka.sh/2020/02/23/journaling-in-vim.html)

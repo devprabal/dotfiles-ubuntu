@@ -5,3 +5,4 @@ carbon bluish black #293542
 grey black #242730
 flat remix grey black #272A34
 adwaita-dark grey black #3D3D3D
+purple #8443B6
