@@ -91,10 +91,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-## my aliases
-alias gits='git status'
-alias gitlog='git log --oneline --decorate --all --graph'
-alias rice='cd ~/Documents/rice'
 
 
 # Add an "alert" alias for long running commands.  Use like so:
@@ -106,6 +102,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
+## My aliases are in this file now
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
@@ -154,4 +151,7 @@ man() {
 }
 
 ## for git status on PS1, starship installed via curl from their github webpage
-eval "$(starship init bash)"
+## it has some issues with cp command, so now I am not using it.
+## I will substitute it with some other similar program later.
+## Till then gits (git status) is the way to go.
+#eval "$(starship init bash)"

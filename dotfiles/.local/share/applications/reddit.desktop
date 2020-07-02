@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=UnixPorn Reddit
+Exec=bash -c "google-chrome --app="https://www.reddit.com/r/unixporn/" %U"
+Icon=/home/devpogi/.icons/Papirus/64x64/apps/reddit.svg
+Type=Application
+Terminal=false
+Categories=Internet;
