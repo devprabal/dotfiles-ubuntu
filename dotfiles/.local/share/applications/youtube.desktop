@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Baby Wogue
-Exec=bash -c "google-chrome --app="https://www.youtube.com" %U"
+Exec=bash -c "google-chrome --app="https://www.youtube.com/channel/UCZWadyLVO4ZnMgLrRVtS6VA/videos" %U"
 Icon=/home/devpogi/.icons/Papirus/64x64/apps/youtube.svg
 Type=Application
 Terminal=false
