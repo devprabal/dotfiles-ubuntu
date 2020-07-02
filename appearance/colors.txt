@@ -1,8 +1,0 @@
-Pavi's backlight and hardware theme color #881798
-telegram-theme-purple #7F6ED3
-dash to panel's carbon black #2E3440
-carbon bluish black #293542
-grey black #242730
-flat remix grey black #272A34
-adwaita-dark grey black #3D3D3D
-purple #8443B6
