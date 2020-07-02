@@ -1,0 +1,45 @@
+#!/bin/bash
+
+function makepdf {
+	pandoc -f gfm -t pdf $1 -o /tmp/mark.pdf -V geometry:margin=0.8in -V urlcolor='[HTML]{0000ff}' -V 'fontfamily:dejavu'
+}
+
+function makepdfimage {
+	pdftoppm -singlefile -f 1 -r 72 -jpeg -jpegopt quality=90 /tmp/mark.pdf /tmp/mark
+}
+
+function drawimage {
+	source "`ueberzug library`"
+
+	# process substitution example:
+	ImageLayer 0< <(
+		ImageLayer::add [identifier]="example0" [x]="39" [y]="0" [width]="40" [path]="$1" 
+		sleep 3
+		ImageLayer::remove [identifier]="example0"
+	)
+}
+
+function makeclear {
+	rm -f /tmp/mark*
+}
+
+if [ "$1" = "" ] || [ $# -ne 1 ] || [ ! -f "$1" ]
+then
+	echo "provide one existing markdown file or an image file."
+else
+	case $(file -b --mime-type "$1") in
+		text/*)
+			makepdf "$1"
+			makepdfimage
+			drawimage "/tmp/mark.jpg"
+			;;
+		image/*)
+			drawimage "$1"
+			;;
+		*)
+			echo "file not supported"
+			;;
+	esac
+fi
+
+makeclear
