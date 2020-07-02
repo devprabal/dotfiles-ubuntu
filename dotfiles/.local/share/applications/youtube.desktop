@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Youtube
+Name=Baby Wogue
 Exec=bash -c "google-chrome --app="https://www.youtube.com" %U"
 Icon=/home/devpogi/.icons/Papirus/64x64/apps/youtube.svg
 Type=Application
