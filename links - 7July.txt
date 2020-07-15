@@ -1,3 +1,5 @@
+https://sites.google.com/site/harishguruprasad/teaching/nlo-aug-18?authuser=0 | Harish Guruprasad Ramaswamy - NLO : Aug 18
+http://www.cse.iitm.ac.in/~miteshk/ | Mitesh M. Khapra, CSE, IITM
 https://cvit.iiit.ac.in/ | Home
 https://iith.ac.in/~vineethnb/pubs.html | Vineeth N B: Publications
 https://iith.ac.in/~vineethnb/students.html | Vineeth N B: Students
@@ -25,6 +27,47 @@ https://www.reddit.com/r/AskAcademia/ | AskAcademia: Questions for Academics
 https://drive.google.com/drive/u/0/my-drive | My Drive - Google Drive
 https://paperswithcode.com/task/combinatorial-optimization | Combinatorial Optimization - Papers With Code
 
+https://wiki.ubuntu.com/NotificationDevelopmentGuidelines#icons | NotificationDevelopmentGuidelines - Ubuntu Wiki
+https://wiki.archlinux.org/index.php/Desktop_notifications | Desktop notifications - ArchWiki
+https://www.tecmint.com/run-repeat-linux-command-every-x-seconds/ | How to Run or Repeat a Linux Command Every X Seconds Forever
+https://unix.stackexchange.com/questions/223778/how-to-run-an-infinite-loop-in-the-background | bash - How to run an infinite loop in the background - Unix & Linux Stack Exchange
+https://www.cyberciti.biz/faq/bash-infinite-loop/ | Bash Infinite Loop Examples - nixCraft
+https://stackoverflow.com/questions/3532718/extract-string-from-string-using-regex-in-the-terminal | bash - Extract string from string using RegEx in the Terminal - Stack Overflow
+https://regexr.com/ | RegExr: Learn, Build, & Test RegEx
+https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/ | 4 Bash If Statement Examples ( If then fi, If then else fi, If elif else fi, Nested if )
+http://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#index-_0024_0024 | Bash Reference Manual
+https://www.google.com/search?client=ubuntu&channel=fs&q=kill+all+commands+related+to+a+script+if+the+script+is+killed&ie=utf-8&oe=utf-8 | kill all commands related to a script if the script is killed - Google Search
+https://www.google.com/search?client=ubuntu&channel=fs&q=acpi+status&ie=utf-8&oe=utf-8 | acpi status - Google Search
+https://regexone.com/lesson/matching_characters | RegexOne - Learn Regular Expressions - Lesson 3: Matching specific characters
+https://regexr.com/ | RegExr: Learn, Build, & Test RegEx
+https://unix.stackexchange.com/questions/223778/how-to-run-an-infinite-loop-in-the-background | bash - How to run an infinite loop in the background - Unix & Linux Stack Exchange
+https://www.tecmint.com/ps-command-examples-for-linux-process-monitoring/ | 30 Useful 'ps Command' Examples for Linux Process Monitoring
+https://stackoverflow.com/questions/30493424/what-is-the-difference-between-a-process-pid-ppid-uid-euid-gid-and-egid | ruby - What is the difference between a Process' pid, ppid, uid, euid, gid and egid? - Stack Overflow
+https://superuser.com/questions/363169/ps-how-can-i-recursively-get-all-child-process-for-a-given-pid | linux - ps: How can i recursively get all child process for a given pid - Super User
+https://stackoverflow.com/questions/17583578/what-command-means-do-nothing-in-a-conditional-in-bash | What command means "do nothing" in a conditional in Bash? - Stack Overflow
+https://ryanstutorials.net/bash-scripting-tutorial/bash-functions.php | Functions - Bash Scripting Tutorial
+https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux | bash - How to change the output color of echo in Linux - Stack Overflow
+https://en.wikipedia.org/wiki/ANSI_escape_code | ANSI escape code - Wikipedia
+https://unix.stackexchange.com/questions/23111/what-is-the-eval-command-in-bash | shell - What is the "eval" command in bash? - Unix & Linux Stack Exchange
+https://www.google.com/search?client=ubuntu&channel=fs&q=sys%2Fpower+to+show+battery+status&ie=utf-8&oe=utf-8 | sys/power to show battery status - Google Search
+
+https://www.reddit.com/r/cpp_questions/comments/fgsrfv/how_to_create_objects_of_template_class_like_the/ | How to create objects of template class like the style used in Java? : cpp_questions
+https://stackoverflow.com/questions/6946217/how-to-access-the-contents-of-a-vector-from-a-pointer-to-the-vector-in-c | How to access the contents of a vector from a pointer to the vector in C++? - Stack Overflow
+https://www.google.com/search?client=ubuntu&channel=fs&q=iterate+through+vector+c%2B%2B&ie=utf-8&oe=utf-8 | iterate through vector c++ - Google Search
+https://stackoverflow.com/questions/4890497/how-do-i-iterate-over-a-constant-vector | c++ - How do I iterate over a Constant Vector? - Stack Overflow
+https://renenyffenegger.ch/notes/development/languages/C-C-plus-plus/GCC/create-libraries/index | Creating a shared and static library with the gnu compiler (gcc)
+https://stackoverflow.com/questions/16693273/how-do-i-create-a-library | c++ - How do I create a library? - Stack Overflow
+https://cs.stackexchange.com/questions/9380/why-is-push-back-in-c-vectors-constant-amortized | algorithms - Why is push_back in C++ vectors constant amortized? - Computer Science Stack Exchange
+https://stackoverflow.com/questions/3610933/iterating-c-vector-from-the-end-to-the-begin | Iterating C++ vector from the end to the begin - Stack Overflow
+https://stackoverflow.com/questions/7026350/whats-char-const-argv | c++ - What's char* const argv[]? - Stack Overflow
+https://stackoverflow.com/questions/890535/what-is-the-difference-between-char-const-and-const-char | c - What is the difference between char * const and const char *? - Stack Overflow
+https://stackoverflow.com/questions/20944784/why-is-conversion-from-string-constant-to-char-valid-in-c-but-invalid-in-c | Why is conversion from string constant to 'char*' valid in C but invalid in C++ - Stack Overflow
+https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/ | Command line arguments in C/C++ - GeeksforGeeks
+https://www.geeksforgeeks.org/modulo-1097-1000000007/ | Modulo 10^9+7 (1000000007) - GeeksforGeeks
+
+http://data:text/html, <style>html,body{margin: 0; padding: 0;}</style><textarea style="font-size: 1.7em; line-height: 1.5em; background: rgb(136, 23, 152); color: rgb(239,237,245); width: 100%; height: 100%; border: none; outline: none; margin: 0; padding: 90px;" autofocus placeholder="Hi Prabal..." /> | data:text/html, <style>html,body{margin: 0; padding: 0;}</style><textarea style="font-size: 1.7em; line-height: 1.5em; background: rgb(136, 23, 152); color: rgb(239,237,245); width: 100%; height: 100%; border: none; outline: none; margin: 0; padding: 90px;" autofocus placeholder="Hi Prabal..." />
+https://docs.google.com/spreadsheets/d/1HvU3jpZj0aHZkG86ISU51SF69WS8rM1kA1P-J9bdXiw/edit#gid=1698936683 | Daily Analysis - Google Sheets
+
 https://medium.com/@curiousily/solving-an-mdp-with-q-learning-from-scratch-deep-reinforcement-learning-for-hackers-part-1-45d1d360c120 | Solving an MDP with Q-Learning from scratch — Deep Reinforcement Learning for Hackers (Part 1)
 https://levelup.gitconnected.com/build-a-taxi-driving-agent-in-a-post-apocalyptic-world-using-reinforcement-learning-machine-175b1edd8f69 | Build a taxi driving agent in a post-apocalyptic world using Reinforcement Learning | Machine Learning from Scratch (Part VIII)
 https://github.com/wagonhelm/Reinforcement-Learning-Introduction/blob/master/Solving%20Taxi.ipynb | Reinforcement-Learning-Introduction/Solving Taxi.ipynb at master · wagonhelm/Reinforcement-Learning-Introduction
@@ -46,45 +89,6 @@ https://ai.stackexchange.com/questions/20959/q-table-not-converging-for-an-arbit
 https://paperswithcode.com/task/combinatorial-optimization | Combinatorial Optimization | Papers With Code
 https://ai.stackexchange.com/questions/3596/q-learning-algorithm-not-converging | Q Learning Algorithm not converging - Artificial Intelligence Stack Exchange
 https://teachablemachine.withgoogle.com/ | Teachable Machine
-
-https://www.reddit.com/r/cpp_questions/comments/fgsrfv/how_to_create_objects_of_template_class_like_the/ | How to create objects of template class like the style used in Java? : cpp_questions
-https://stackoverflow.com/questions/6946217/how-to-access-the-contents-of-a-vector-from-a-pointer-to-the-vector-in-c | How to access the contents of a vector from a pointer to the vector in C++? - Stack Overflow
-https://www.google.com/search?client=ubuntu&channel=fs&q=iterate+through+vector+c%2B%2B&ie=utf-8&oe=utf-8 | iterate through vector c++ - Google Search
-https://stackoverflow.com/questions/4890497/how-do-i-iterate-over-a-constant-vector | c++ - How do I iterate over a Constant Vector? - Stack Overflow
-https://renenyffenegger.ch/notes/development/languages/C-C-plus-plus/GCC/create-libraries/index | Creating a shared and static library with the gnu compiler (gcc)
-https://stackoverflow.com/questions/16693273/how-do-i-create-a-library | c++ - How do I create a library? - Stack Overflow
-https://cs.stackexchange.com/questions/9380/why-is-push-back-in-c-vectors-constant-amortized | algorithms - Why is push_back in C++ vectors constant amortized? - Computer Science Stack Exchange
-https://stackoverflow.com/questions/3610933/iterating-c-vector-from-the-end-to-the-begin | Iterating C++ vector from the end to the begin - Stack Overflow
-https://stackoverflow.com/questions/7026350/whats-char-const-argv | c++ - What's char* const argv[]? - Stack Overflow
-https://stackoverflow.com/questions/890535/what-is-the-difference-between-char-const-and-const-char | c - What is the difference between char * const and const char *? - Stack Overflow
-https://stackoverflow.com/questions/20944784/why-is-conversion-from-string-constant-to-char-valid-in-c-but-invalid-in-c | Why is conversion from string constant to 'char*' valid in C but invalid in C++ - Stack Overflow
-https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/ | Command line arguments in C/C++ - GeeksforGeeks
-
-https://wiki.ubuntu.com/NotificationDevelopmentGuidelines#icons | NotificationDevelopmentGuidelines - Ubuntu Wiki
-https://wiki.archlinux.org/index.php/Desktop_notifications | Desktop notifications - ArchWiki
-https://www.tecmint.com/run-repeat-linux-command-every-x-seconds/ | How to Run or Repeat a Linux Command Every X Seconds Forever
-https://unix.stackexchange.com/questions/223778/how-to-run-an-infinite-loop-in-the-background | bash - How to run an infinite loop in the background - Unix & Linux Stack Exchange
-https://www.cyberciti.biz/faq/bash-infinite-loop/ | Bash Infinite Loop Examples - nixCraft
-https://stackoverflow.com/questions/3532718/extract-string-from-string-using-regex-in-the-terminal | bash - Extract string from string using RegEx in the Terminal - Stack Overflow
-https://regexr.com/ | RegExr: Learn, Build, & Test RegEx
-https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/ | 4 Bash If Statement Examples ( If then fi, If then else fi, If elif else fi, Nested if )
-http://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#index-_0024_0024 | Bash Reference Manual
-https://www.google.com/search?client=ubuntu&channel=fs&q=kill+all+commands+related+to+a+script+if+the+script+is+killed&ie=utf-8&oe=utf-8 | kill all commands related to a script if the script is killed - Google Search
-
-https://www.google.com/search?client=ubuntu&channel=fs&q=acpi+status&ie=utf-8&oe=utf-8 | acpi status - Google Search
-https://regexone.com/lesson/matching_characters | RegexOne - Learn Regular Expressions - Lesson 3: Matching specific characters
-https://regexr.com/ | RegExr: Learn, Build, & Test RegEx
-https://unix.stackexchange.com/questions/223778/how-to-run-an-infinite-loop-in-the-background | bash - How to run an infinite loop in the background - Unix & Linux Stack Exchange
-https://www.tecmint.com/ps-command-examples-for-linux-process-monitoring/ | 30 Useful 'ps Command' Examples for Linux Process Monitoring
-https://stackoverflow.com/questions/30493424/what-is-the-difference-between-a-process-pid-ppid-uid-euid-gid-and-egid | ruby - What is the difference between a Process' pid, ppid, uid, euid, gid and egid? - Stack Overflow
-https://superuser.com/questions/363169/ps-how-can-i-recursively-get-all-child-process-for-a-given-pid | linux - ps: How can i recursively get all child process for a given pid - Super User
-https://stackoverflow.com/questions/17583578/what-command-means-do-nothing-in-a-conditional-in-bash | What command means "do nothing" in a conditional in Bash? - Stack Overflow
-https://ryanstutorials.net/bash-scripting-tutorial/bash-functions.php | Functions - Bash Scripting Tutorial
-https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux | bash - How to change the output color of echo in Linux - Stack Overflow
-https://en.wikipedia.org/wiki/ANSI_escape_code | ANSI escape code - Wikipedia
-https://unix.stackexchange.com/questions/23111/what-is-the-eval-command-in-bash | shell - What is the "eval" command in bash? - Unix & Linux Stack Exchange
-https://www.google.com/search?client=ubuntu&channel=fs&q=sys%2Fpower+to+show+battery+status&ie=utf-8&oe=utf-8 | sys/power to show battery status - Google Search
-
 https://www.reddit.com/r/reinforcementlearning/comments/gmp4nm/below_you_will_find_a_link_to_a_zoom_recording/ | Below you will find a link to a Zoom recording where our team discusses Reinforcement Learning. Topics covered: Markov Decision Process, Double Q-Learning, the math behind Q-Learning, and the Bellman Equation. We also walk through the algorithms and provide coded examples. : reinforcementlearning
 https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15381-s06/www/nn.pdf | Microsoft PowerPoint - nn.ppt - nn.pdf
 https://arxiv.org/pdf/1602.04062.pdf | 1602.04062.pdf
@@ -105,3 +109,4 @@ https://neptune.ai/blog/keras-metrics | Keras Metrics: Everything You Need To Kn
 https://towardsdatascience.com/building-models-with-keras-bbe6dcfdad31 | Building Models with Keras - Towards Data Science
 https://stackoverflow.com/questions/54689503/keras-validation-accuracy-is-0-and-stays-constant-throughout-the-training | machine learning - Keras validation accuracy is 0, and stays constant throughout the training - Stack Overflow
 https://stackoverflow.com/questions/48775305/what-function-defines-accuracy-in-keras-when-the-loss-is-mean-squared-error-mse/48788577#48788577 | machine learning - What function defines accuracy in Keras when the loss is mean squared error (MSE)? - Stack Overflow
+
