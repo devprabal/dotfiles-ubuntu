@@ -111,10 +111,12 @@ $
 
 ### github.io (static site for `rice`)
 
+- [ ] `ssg` [watch this video, simplest and bloat-less static website generator from markdown written in posix shell and require `lowdown` C library](https://youtu.be/N_ttw2Dihn8)
 - [ ] static site generate from `.md` files with [fastpages](https://github.com/fastai/fastpages).
 - [ ] static site generator with hugo.
 - [ ] static site with [surge.sh](surge.sh) ? (nodejs)
 - [ ] gatsby ? (nodejs)
+
 
 ### reading
 

@@ -125,4 +125,18 @@ GRUB_FONT=/boot/grub/fonts/Hack24.pf2
 
 ---
 
+### Change TTY (1,2,3, etc.) font size for better readability on HiDPI screens
+
+`sudo dpkg-reconfigure console-setup`. This will ask you about the font and size to be set in it TUI (terminal user interface).
+
+I have set the `FONTFACE` and `CODESET` to *let system decide* or **"guess"** . The `FONTSIZE` is set to `12x24` and `CHARMAP` to **"UTF-8"**.
+
+The default configuration can be found in `/etc/default` with file name `console-setup`. The changes will reflect in the same file.
+
+I don't know what it was saying about the `framebuffer` stuff, I did set a size `12x24` which requires framebuffer. And to my satisfaction, it works out of the box, with no other dependencies/configs to be installed along-side.
+
+[Source, stackoverflow](https://unix.stackexchange.com/questions/49779/can-i-change-the-font-of-the-text-mode-console)
+
+---
+
 ### 
