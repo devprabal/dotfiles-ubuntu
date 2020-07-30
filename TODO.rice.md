@@ -65,6 +65,7 @@
 - [ ] Change font color in dashToPanel by [custom color workaround for indicator icons, clock, date in dashToPanel extension] (https://github.com/home-sweet-gnome/dash-to-panel/issues/727)
 - [ ] installed (by `apt`) libgtk-3-dev, meson, sassc for generating css files from Adwaita scss files in `~/.themes`. Do they need to be removed or leave them as they are for one day when I make my first GTK app?
 - [ ] gnome-shell ricing with sassc (scss) for Adwaita-blue-riced, fix workspace column round border, running app background color on dash. Take screenshots and post to r/unixporn.
+- [ ] see the "todos and fixme" in `~/bin/markpdf` script.
 
 ### try something new
 
