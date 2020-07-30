@@ -1,0 +1,215 @@
+#!/usr/bin/env bash
+
+declare -r -x TEXT_WIDTH=38	# Change according to your character width (in pixels)
+declare -r -x TEXT_HEIGHT=12	# Change according to your character height
+declare -r -x UEBERZUG_FIFO="$(mktemp --dry-run --suffix "lf-$$-ueberzug")"
+declare -r -x PREVIEW_TMP="$(mktemp -d --suffix "lf-$$-ueberzug")"
+
+function check_cache {
+    if [ ! -d "$HOME/.cache/lf" ]; then
+	mkdir -p "$HOME/.cache/lf"
+    fi
+}
+
+function start_ueberzug {
+    mkfifo "${UEBERZUG_FIFO}"
+    <"${UEBERZUG_FIFO}" ueberzug layer --parser bash --silent &
+    3> "${UEBERZUG_FIFO}" exec
+}
+
+function remove_temp {
+    rm "${UEBERZUG_FIFO}"
+    rm -r "${PREVIEW_TMP}"
+}
+
+## see this link for explanation of icon names
+## http://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors
+
+export LF_ICONS="\
+tw= :\
+st= :\
+ow= :\
+dt= :\
+di= :\
+fi= :\
+ln= :\
+or= :\
+ex=ﲵ :\
+*.txt= :\
+*.org= :\
+*.md= :\
+*.mkd= :\
+*.h= :\
+*.hpp= :\
+*.c=ﭰ :\
+*.C=ﭰ :\
+*.cc=ﭱ :\
+*.cpp=ﭱ :\
+*.cxx=ﭱ :\
+*.sh=ﲵ :\
+*.bash=ﲵ :\
+*.csh=ﲵ :\
+*.zsh=ﲵ :\
+*.vim= :\
+*.java= :\
+*.py= :\
+*.rb= :\
+*.php= :\
+*.htm= :\
+*.html= :\
+*.xml= :\
+*.css= :\
+*.sass=ﳪ :\
+*.scss= :\
+*.js= :\
+*.coffee= :\
+*.go=ﳑ :\
+*.json= :\
+*.hs= :\
+*.lua= :\
+*.scala= :\
+*.rs= :\
+*.gitignore= :\
+*.db= :\
+*.sql= :\
+*.sqlite= :\
+*.csv= :\
+*.bmp= :\
+*.cgm= :\
+*.dl= :\
+*.dvi= :\
+*.emf= :\
+*.eps= :\
+*.gif= :\
+*.jpeg= :\
+*.jpg= :\
+*.JPG= :\
+*.mng= :\
+*.pbm= :\
+*.pcx= :\
+*.pgm= :\
+*.png= :\
+*.PNG= :\
+*.ppm= :\
+*.pps= :\
+*.ppsx= :\
+*.ps= :\
+*.svg= :\
+*.svgz= :\
+*.tga= :\
+*.tif= :\
+*.tiff= :\
+*.xbm= :\
+*.xcf= :\
+*.xpm= :\
+*.xwd= :\
+*.xwd= :\
+*.yuv= :\
+*.nef= :\
+*.NEF= :\
+*.aac=ﱘ :\
+*.au=ﱘ :\
+*.flac=ﱘ :\
+*.m4a=ﱘ :\
+*.mid=ﱘ :\
+*.midi=ﱘ :\
+*.mka=ﱘ :\
+*.mp3=ﱘ :\
+*.mpa=ﱘ :\
+*.mpeg=ﱘ :\
+*.mpg=ﱘ :\
+*.ogg=ﱘ :\
+*.opus=ﱘ :\
+*.ra=ﱘ :\
+*.wav=ﱘ :\
+*.anx= :\
+*.asf= :\
+*.avi= :\
+*.axv= :\
+*.flc= :\
+*.fli= :\
+*.flv= :\
+*.gl= :\
+*.m2v= :\
+*.m4v= :\
+*.mkv= :\
+*.mov= :\
+*.MOV= :\
+*.mp4= :\
+*.mp4v= :\
+*.mpeg= :\
+*.mpg= :\
+*.nuv= :\
+*.ogm= :\
+*.ogv= :\
+*.ogx= :\
+*.qt= :\
+*.rm= :\
+*.rmvb= :\
+*.swf= :\
+*.vob= :\
+*.webm= :\
+*.wmv= :\
+*.doc= :\
+*.docx= :\
+*.rtf= :\
+*.odt= :\
+*.dot= :\
+*.dotx= :\
+*.ott= :\
+*.xls= :\
+*.xlsx= :\
+*.ods= :\
+*.ots= :\
+*.ppt= :\
+*.pptx= :\
+*.odp= :\
+*.otp= :\
+*.psd= :\
+*.7z= :\
+*.apk=ﲎ :\
+*.arj= :\
+*.bin= :\
+*.bz= :\
+*.bz2= :\
+*.cab= :\
+*.dmg= :\  
+*.gem= :\
+*.gz= :\
+*.iso= :\
+*.jar= :\
+*.msi= :\
+*.rar= :\
+*.rpm= :\
+*.tar= :\
+*.tbz= :\
+*.tbz2= :\
+*.tgz= :\
+*.tx= :\
+*.war= :\
+*.xpi= :\
+*.xz= :\
+*.z= :\
+*.Z= :\
+*.zip= :\
+*.deb= :\
+*.bak= :\
+*.BAK= :\
+*.old= :\
+*.OLD= :\
+*.pdf= :\
+*.gpg= :\
+*.gpg= :\
+*.pgp= :\
+*.asc= :\
+*.3des= :\
+*.aes= :\
+*.enc= :\
+*.sig= :\
+*.AppImage= :\
+"
+
+check_cache
+start_ueberzug
+lf
+remove_temp

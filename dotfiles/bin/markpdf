@@ -1,0 +1,106 @@
+#!/bin/bash
+
+show_help () {
+	cat <<- _EOF_
+	Usage: $(basename $0) [OPTION]... FILE
+	
+	Uses pandoc to generate pdf from github-flavoured-markdown.
+	Uses carefully-selected formatting options by default.
+
+	  OPTION:
+	    -h, --help             show help and exit
+	    -t, --toc              add --toc option to pandoc
+	        --urlcolor=HEXVAL  6 letter HEX color for links, etc.
+	_EOF_
+}
+
+colr () {
+	echo "[HTML]{"$urlcolor"}"
+}
+
+incantation () {
+pandoc -f gfm -t pdf "$1" -o "${1}.pdf" \
+--pdf-engine=xelatex \
+-V geometry:margin=1in \
+-V linestretch=1.5 \
+-V papersize=a4 \
+-V documentclass=extarticle \
+-V fontsize=12pt \
+-V bookmarks=true \
+-V urlcolor="$2" \
+-V linkcolor="$2" \
+-V links-as-notes=true \
+-V mainfont="Roboto" \
+-V monofont="Hack Nerd Font" $3
+}
+
+other_options=""
+urlcolor="0A73F6" # 6 letter HEX Value
+filename=""
+
+if [[ "$#" -lt 1 ]]; then
+	show_help >&0
+	exit 1
+else
+	while [[ -n "$1" ]];
+	do
+		case "$1" in
+			-h|--help)
+				show_help
+				exit
+				;; 
+			-t|--toc)
+				other_options="${other_options}$1 "
+				shift
+				;;
+			--urlcolor*)
+				urlcolor="${1#"--urlcolor"}"
+				if [[ -z "$urlcolor" ]]; then 
+					echo "Usage: --urlcolor=HEXVAL 6 letter \
+hex color 000000...ffffff" >&2
+					exit 1
+				else
+					urlcolor="${urlcolor#=}"
+					shift
+				fi
+				;;
+			-*|--*)
+				echo "Unrecognized option: $1"
+				exit 1
+				;;
+			*)
+				filename="$1"
+				shift
+				;;
+		esac
+	done
+fi
+
+if [[ -f "$filename" ]]; then
+		incantation $filename "$(colr)" $other_options
+else
+	if [[ -z "$filename" ]]; then
+		echo "Provide a markdown file" >&2
+	else
+		echo "File $filename does not exist" >&2
+	fi
+	exit 1
+fi
+
+
+# TODO: Beautify the pdf as shown in https://github.com/masbicudo/Pandoc-Emojis-Filter/blob/master/example.pdf
+# TODO: color emoji support (example github's :sauropod:), highlight links in blue and also show their website uri in footnotes.
+# TODO: highlight code blocks and inline-codes in different color background, maybe lighter yellow and black mono text.
+# TODO: remove .md from the output pdf file name in this script.
+# TODO: an optional command line option(--toc) for having tableOfContents with `-V toc=true` or `--toc` and maybe use `--toc-depth=3`
+# TODO: colorscheme for syntax highlighting (default is pygments)
+# edit the theme file for dracula color scheme
+# theme file is generated using `pandoc --print-highlight-style pygments > my.theme`
+# the edited my.theme file can be given using `pandoc --highlight-style my.theme`
+# NOTE: Pandoc will automatically highlight syntax (using the my.theme or default) in fenced code blocks that are marked with a language name.
+#TODO: highlight urltext color when used in footnote-style
+#DONE: improve show_help() 
+#DONE: --urlcolor=HEXVALUE in case switch
+#DONE: other_options when empty, results in pandoc error
+#FIXME: --urlcolor=xyz will also not give any error in case statement and --urlcolor= also. check for exactly [0-9A-F]{6,} after =
+

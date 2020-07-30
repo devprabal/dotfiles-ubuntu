@@ -22,7 +22,23 @@
 - see `man xorg.conf` to help in setting up tap to click and natural scrolling
 - see `man libinput` for option like `NaturalScrolling` and `Tapping`
 
-## /usr/share/X11/xorg.conf.d/
+```
+Section "InputClass"
+    Identifier "Touchpad"
+    MatchIsTouchpad "on"
+    Driver "libinput"
+    Option "Tapping" "on"
+EndSection
+
+Section "InputClass"
+    Identifier "Touchpad"
+    MatchIsTouchpad "on"
+    Driver "libinput"
+    Option "NaturalScrolling" "on"
+EndSection
+```
+
+## /usr/share/X11/xorg.conf.d/20-intel.conf
 
 [backlight with xbacklight and intel_backlight](https://askubuntu.com/questions/762764/cant-change-brightness-since-ubuntu-16-04-lts)
 
@@ -30,6 +46,14 @@
 
 [arch wiki: other links for brightness control](https://wiki.archlinux.org/index.php/Backlight)
 
+```
+Section "Device"
+        Identifier  "card0"
+        Driver      "intel"
+        Option      "Backlight"  "intel_backlight"
+        BusID       "PCI:0:2:0"
+EndSection
+```
 
 ## ~/.config/awesome/
 
