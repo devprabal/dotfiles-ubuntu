@@ -24,11 +24,11 @@ _EOF_
 
 write_headers
 
-for filename in $(ls gallery)
+ls gallery | while read -r filename
 do
-    write_images $filename
+    filename="${filename// /%20}" # replace all spaces with %20
+    write_images "$filename"
 done
 
 echo -e '\n</p>' >> README.md
-
 
