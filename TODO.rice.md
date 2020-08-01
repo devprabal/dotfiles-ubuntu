@@ -34,6 +34,7 @@
 - [ ] add in [conda_usage.md](conda_usage.md) the other way to activate env using conda even in zsh by conda init command.
 - [ ] see .bash_history and write some commands (like flatpak run --branch=master org.gnome.Evince ) in commandline.md. Move content from cheatsheet (github/cheatsheets) to `commandline.md`.
 - [ ] script to cp into rice any dotfile that is modified.
+- [ ] make rice public and change README.md to look structured and beautiful.
 
 ### solve issues
 
