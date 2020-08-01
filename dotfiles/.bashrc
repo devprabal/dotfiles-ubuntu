@@ -11,6 +11,7 @@ esac
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
+HISTCONTROL=ignoredups # ignore duplicates
 
 # append to the history file, don't overwrite it
 shopt -s histappend
@@ -136,8 +137,12 @@ unset __conda_setup
 ## For Dracula theme dir colors for gnome-terminal (from https://draculatheme.com/gnome-terminal)
 eval `dircolors /home/devpogi/.dir_colors/dircolors`
 
-## My Custom PS1, require Hack Nerd Font as font and encoding Unicode-8 to be enabled in the gnome-terminal
-PS1=$'\\[\e[1;37m\\]\uf31b \w \\[\e[0m\\]\\[\e[0;32m\\]\uf155\\[\e[0m\\] '
+## My PS1, requires Hack Nerd Font
+PS1="\n\[\e[0;42m\e[0;32m\]\[\e[0;42m\e[1;30m\]\w\[\e[0;32m\]\[\e[0m\] "
+## \033 is \e
+if [[ "$(id -u)" -eq 0 ]]; then
+	PS1="${PS1}\[\e[0;41m\e[0;35m\]\[\e[0;45m\e[1;30m\]#\[\e[0;45m\e[0;35m\]\[\e[0m\]  "
+fi
 
 ## for colored man pages, taken from archwiki
 man() {
