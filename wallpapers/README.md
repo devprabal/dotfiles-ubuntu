@@ -4,6 +4,7 @@
  - [Alex Martin](https://www.alexstevenmartin.com/)
  - user `nuaNce#4387` (discord) on unixporn server
  - [Wallpaperflare](www.wallpaperflare.com)
+ - [Mat Szulik](https://matszulik.artstation.com/)
  - I don't remember some of them :sweat: . Contact me if you see your artwork not credited above.
 
 ## Gallery
@@ -20,15 +21,21 @@
 <a href="gallery/cycle.jpg"><img src="gallery/cycle.jpg" width="150" height="100"></a>
 <a href="gallery/daffodils.jpg"><img src="gallery/daffodils.jpg" width="150" height="100"></a>
 <a href="gallery/eagle-flat-landscape-720p.jpg"><img src="gallery/eagle-flat-landscape-720p.jpg" width="150" height="100"></a>
+<a href="gallery/flower1.jpg"><img src="gallery/flower1.jpg" width="150" height="100"></a>
+<a href="gallery/flower2.jpg"><img src="gallery/flower2.jpg" width="150" height="100"></a>
 <a href="gallery/girl_and_boat.jpg"><img src="gallery/girl_and_boat.jpg" width="150" height="100"></a>
+<a href="gallery/girl_on_cycle.png"><img src="gallery/girl_on_cycle.png" width="150" height="100"></a>
+<a href="gallery/girl_umbrella.jpg"><img src="gallery/girl_umbrella.jpg" width="150" height="100"></a>
 <a href="gallery/jet.jpg"><img src="gallery/jet.jpg" width="150" height="100"></a>
 <a href="gallery/landscape.jpg"><img src="gallery/landscape.jpg" width="150" height="100"></a>
 <a href="gallery/leaves.jpg"><img src="gallery/leaves.jpg" width="150" height="100"></a>
 <a href="gallery/lines.jpg"><img src="gallery/lines.jpg" width="150" height="100"></a>
+<a href="gallery/mateusz-szulik-08-tokyo-artstation.jpg"><img src="gallery/mateusz-szulik-08-tokyo-artstation.jpg" width="150" height="100"></a>
 <a href="gallery/MidwestScifi-sunny.jpg"><img src="gallery/MidwestScifi-sunny.jpg" width="150" height="100"></a>
 <a href="gallery/millenium_falcon.jpg"><img src="gallery/millenium_falcon.jpg" width="150" height="100"></a>
 <a href="gallery/naruto.png"><img src="gallery/naruto.png" width="150" height="100"></a>
 <a href="gallery/naruto_sasuke.png"><img src="gallery/naruto_sasuke.png" width="150" height="100"></a>
+<a href="gallery/optic-fibre.jpg"><img src="gallery/optic-fibre.jpg" width="150" height="100"></a>
 <a href="gallery/Pavi_1st_birthday_10-Oct.png"><img src="gallery/Pavi_1st_birthday_10-Oct.png" width="150" height="100"></a>
 <a href="gallery/piano.jpg"><img src="gallery/piano.jpg" width="150" height="100"></a>
 <a href="gallery/the-priory-of-the-orange-tree-wallpaper.jpg"><img src="gallery/the-priory-of-the-orange-tree-wallpaper.jpg" width="150" height="100"></a>
@@ -40,5 +47,6 @@
 <a href="gallery/wallblur.jpg"><img src="gallery/wallblur.jpg" width="150" height="100"></a>
 <a href="gallery/waterfall.jpg"><img src="gallery/waterfall.jpg" width="150" height="100"></a>
 <a href="gallery/wires.jpg"><img src="gallery/wires.jpg" width="150" height="100"></a>
+<a href="gallery/WorkStation-SM.jpg"><img src="gallery/WorkStation-SM.jpg" width="150" height="100"></a>
 
 </p>

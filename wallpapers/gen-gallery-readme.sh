@@ -7,6 +7,7 @@ write_headers () {
  - [Alex Martin](https://www.alexstevenmartin.com/)
  - user \`nuaNce#4387\` (discord) on unixporn server
  - [Wallpaperflare](www.wallpaperflare.com)
+ - [Mat Szulik](https://matszulik.artstation.com/)
  - I don't remember some of them :sweat: . Contact me if you see your artwork not credited above.
 
 ## Gallery
