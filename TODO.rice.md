@@ -118,6 +118,9 @@ $
 - [ ] static site generator with hugo.
 - [ ] static site with [surge.sh](surge.sh) ? (nodejs)
 - [ ] gatsby ? (nodejs)
+- [ ] ask an artist to commission a profile pic for me. It should be creative like showing only the outline of my features [like this here](https://github.com/buffet/) or an anime kawai adaptation of my face. Use it as profile pic for all platforms.
+- [ ] personal web should include my creative skills too like drawings, cookings (maybe with recipe like [here, sclurrey](https://theskullery.net/recipes/veggie-mini-pizza) ), books read (a link to goodreads), anime watched (maybe review too), and rice.
+- [ ] write reviews for books read on goodreads.
 
 
 ### reading
