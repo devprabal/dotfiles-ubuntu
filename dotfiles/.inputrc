@@ -1,0 +1,4 @@
+set show-mode-in-prompt on
+set vi-ins-mode-string "פֿ "
+set vi-cmd-mode-string " "
+
