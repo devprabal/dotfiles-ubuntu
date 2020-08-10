@@ -1,16 +1,22 @@
 #!/bin/bash
 write_headers () {
     cat > README.md << _EOF_
-# Wallpapers Collection :framed_picture:
+# Wallpapers and Art Collection (found online) :framed_picture:
 
 ## Credits
  - [Alex Martin](https://www.alexstevenmartin.com/)
  - user \`nuaNce#4387\` (discord) on unixporn server
+ - u/Alcimidius on r/awwnime
+ - Twitter@15nichi
  - [Wallpaperflare](www.wallpaperflare.com)
  - [Mat Szulik](https://matszulik.artstation.com/)
+ - [Thomas Dubois](https://www.artstation.com/thomas_dubois)
+ - [Peter Lee](https://www.artstation.com/peterconcept)
  - I don't remember some of them :sweat: . Contact me if you see your artwork not credited above.
 
 ## Gallery
+
+### Can be used as wallpapers
 
 <p align="center">
 
@@ -19,7 +25,7 @@ _EOF_
 
 write_images () {
     cat >> README.md << _EOF_
-<a href="gallery/$1"><img src="gallery/$1" width="150" height="100"></a>
+<a href="$2/$1"><img src="$2/$1" width="$3" height="$4"></a>
 _EOF_
 }
 
@@ -28,7 +34,15 @@ write_headers
 ls gallery | while read -r filename
 do
     filename="${filename// /%20}" # replace all spaces with %20
-    write_images "$filename"
+    write_images "$filename" "gallery" "150" "100"
+done
+
+echo -e '\n</p>\n\n## Art\n\n### Found them too beautiful to leave out even if they do not become wallpapers\n\n<p align="center">\n' >> README.md
+
+ls artwork | while read -r filename
+do
+    filename="${filename// /%20}" # replace all spaces with %20
+    write_images "$filename" "artwork" "100" "133"
 done
 
 echo -e '\n</p>' >> README.md
