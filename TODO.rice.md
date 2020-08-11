@@ -1,134 +1,72 @@
 # TODO
 
-## Works to be done for ricing and improving my workflow
+## :rice: improve workflow
 
-### write about installed softwares, plugins, etc.
+### some good packages etc.
 
-- [ ] pygmentize `pygmentize TODO.rice.md`, `pygmentize a.cpp`, where installed `~/.local/lib/python3.8/site-packages`, how to install pip3 install --user Pygments
-- [ ] feh
-- [ ] msee (via npm) -- not so great
-- [ ] gnome firefox look -- not using now
-- [ ] not ricing many things, not using many extensions, keeping it raw with minimal tweaks and focusing on codes/development/research more.
-- [ ] gnome-sushi
-- [ ] [battery wallpaper](https://github.com/adi1090x/battery-wallpaper)
-- [ ] OneTab firefox addon configuration, since it cannot be saved? Or can it be? See in profiles folder of mozilla?
-- [ ] snap install netron for visualizing neural networks.
-- [ ] `flatpak ps` to view running flatpak processes
-- [ ] `flatpak override --filesystem=~/.themes` for flatpak apps to follow themes installed in (`~/.themes`) instead of Yaru or Adwaita. `cd /var/lib/flatpak/overrides` to see the changes in file `global`.
-- [ ] Write about useful commands in [commands.md](commands.md).
-- [ ] draculatheme [for gnome-terminal, gedit, pygmentize](https://draculatheme.com/) also write about dropping the class file of dracula into pygments/style subpackage for using dracula style
-- [ ] .dir_colors in ~, installed during dracula-gnome-theme as an optional utility. But it is good and customizable.
-- [ ] pdf readers - zathura, okular, foxit, xournalpp.
-- [ ] qutebrowser
-- [ ] [goodreads bash client](https://github.com/danishprakash/goodreadsh.git)
-- [ ] archwiki
-- [ ] [starship for git status on PS1](https://starship.rs/) 
+- [ ] pygmentize `pygmentize TODO.rice.md`, `pygmentize a.cpp`, where installed `~/.local/lib/python3.8/site-packages`, how to install `pip3 install --user Pygments`
+- [ ] feh -- image viewer
+- [ ] gnome-sushi -- for file preview in nautilus
+- [x] [NOT USING] `nautilus-terminal` -- show terminal widget (and dynamically change pwd in that terminal) in nautilus. Need to install `python3-nautilus` when installing with pip3 `pip3 install --user`.
+- [ ] [battery wallpaper](https://github.com/adi1090x/battery-wallpaper). Almost all of `adi1090x`'s creations are awesome. He has also created a custom Arch distribution *Archcraft* with all his rices included for selection by user.
+- [ ] firefox-addons - Dark Reader, Imagus, Grammarly, Gnome Shell Integration, OneTab, uBlock Origin, Zotero Connector. 
+- [ ] [NOT USING] `snap install netron` for visualizing neural networks. There is a python script to do that.
+- [ ] draculatheme [for gnome-terminal, gedit, pygmentize](https://draculatheme.com/). Copy the class file (`dracula.py`) of dracula into `~/.local/lib/python3.8/site-packages/pygments/styles` for using dracula style.
+- [ ] `.dir_colors` in `~`, installed during dracula-gnome-theme as an optional utility. But it is good and customizable.
+- [ ] pdf readers (in order of preference) - `masterpdfeditor`, `zathura`, `evince`. I have written a comparison for the popular ones [here](https://www.reddit.com/r/linux4noobs/comments/hjwq19/comment/fwq2ll3).
+- [ ] qutebrowser -- a browser in Qt with keyboard navigation
+- [ ] [starship for git status on PS1](https://starship.rs/)
+- [ ] [fet.sh](https://github.com/6gk/fet.sh/blob/master/fet.sh) -- fetch written in POSIX shell with no external commands (~100 loc)
+- [ ] [bolt](https://github.com/salman-abedin/bolt) -- A launcher wrapper written in PSOIX shell with less than 200 sloc. Very minimal alternative to rofi or dmenu.
+- [x] [NOT USING] [Gnome firefox look](https://github.com/rafaelmardojai/firefox-gnome-theme)
 
-### update or add configs or screenshots
+### update
 
 - [ ] gnome-tweaks-screenshots
+- [ ] `*fetch` screenshot
 - [ ] dconf dump 
-- [ ] enabled extensions
-- [ ] [code section highlights](https://stackoverflow.com/questions/20303826/highlight-bash-shell-code-in-markdown)
-- [ ] add `~/.profile` to dotfiles along with `.zsh` and `.bashrc`
-- [ ] add in [conda_usage.md](conda_usage.md) the other way to activate env using conda even in zsh by conda init command.
-- [ ] see .bash_history and write some commands (like flatpak run --branch=master org.gnome.Evince ) in commandline.md. Move content from cheatsheet (github/cheatsheets) to `commandline.md`.
-- [ ] script to cp into rice any dotfile that is modified.
+- [ ] enabled gnome-extensions
+- [ ] [syntax highlighting for all code-blocks written in any markdown file](https://stackoverflow.com/questions/20303826/highlight-bash-shell-code-in-markdown)
+- [x] add in [conda_usage.md](conda_usage.md) the other way to activate env using conda even in zsh by `conda init` command.
+- [ ] script to manage dotfiles. script to cp into rice any dotfile that is modified.
 - [ ] make rice public and change README.md to look structured and beautiful.
+- [ ] These things do not tell when a new update is available and hence are required regular manual updates -- papirus icon pack, hack nerd font, prof-gnome-gtk and gnome-shell theme.
 
-### solve issues
+### issues
 
 - [x] [avidemux new icons with new Papirus icon theme](avidemux_icon_workaround.md)
-- [ ] `nautilus-terminal` not working (installed in `~/.local/lib/python3.8/site-packages`) Issue has been solved in a reply on github. Just need to install `python3-nautilus` because I installed it with pip3.
-- [ ] need to source `~/.profile` for each new terminal window for `npm` and `node` packages. Also the `node-modules` dir has many directories corresponding to installed packages, which are not on PATH, how to include node-modules on PATH such that the bin folders of the modules get automatically included. The directory structure looks like - 
+- [x] `flatpak override --filesystem=~/.themes` for flatpak apps to follow themes installed in (`~/.themes`) instead of Yaru or Adwaita. `cd /var/lib/flatpak/overrides` to see the changes in file `global`.
+- [ ] How to save OneTab firefox-addon settings? It cannot be synced with firefox's profile and thus settings have to be configured when firefox is installed on a new laptop/OS (with same account). 
+- [ ] Make something, maybe a bot, to manage all saved items in telegram (Saved Messages), WhatsApp (Info), discord (leisure), reddit (saved posts and comments) together and consistently. It must also be able to search through it.
+- [ ] Zotero first *major* - *task offloading* research has left so many files to read again, some of which are codes help, latex help, rl, etc. Something like a kerko app can be made to view and search through this archive.
 
-```console
-~/.local/bin
-			├── node_modules
-			│   ├── abbrev
-			│   ├── ansicolors
-			.	.
-			.	.
-			.	.	
-			│   ├── marked
-			│   ├── msee
-				│   ├── bin
-				│   ├── Example.md
-				.   .
-				.	.
-				.	.
-				│   └── test.md
-				.
-				.
-				.
-```
-- [ ] sourcing of .zshrc in sourcing-zshrc.sh is not working, try it by modifying named directories.
-- [ ] Change font color in dashToPanel by [custom color workaround for indicator icons, clock, date in dashToPanel extension] (https://github.com/home-sweet-gnome/dash-to-panel/issues/727)
-- [ ] installed (by `apt`) libgtk-3-dev, meson, sassc for generating css files from Adwaita scss files in `~/.themes`. Do they need to be removed or leave them as they are for one day when I make my first GTK app?
-- [ ] gnome-shell ricing with sassc (scss) for Adwaita-blue-riced, fix workspace column round border, running app background color on dash. Take screenshots and post to r/unixporn.
-- [ ] see the "todos and fixme" in `~/bin/markpdf` script.
+### personal website
 
-### try something new
-
-- [ ] make a script to add items to this `TODO.rice.md` from terminal. Something like -
-```console
-$ edit_todo --list_sections TODO.rice.md
-
-Sections are - 
-1. write about installed softwares, plugins, etc.
-2. update or add configs or screenshots
-3. solve issues
-4. try something new
-5. github.io (static site for `rice`)
-6. reading
-
-$ edit_todo --append 3 "add completed flag to cross-out completed tasks in the TODO.rice.md file"
-
-Changes made to section 3. solve issues -
-
-solve issues
-
-- [ ] [avidemux new icons with new Papirus icon theme](TODO-avidemux_icon_workaround.md)
-- [ ] add completed flag to cross-out completed tasks in the TODO.rice.md file
-
-$
-```
-
-- [x] [Gnome firefox look](https://github.com/rafaelmardojai/firefox-gnome-theme)
-- [ ] custom icon pack from many different icon packs, [reddit comment](https://www.reddit.com/r/Ubuntu/comments/g9rg7r/unity_on_2004_is_smoother_than_you_would_think/foxshh9?utm_source=share&utm_medium=web2x).
-- [ ] Bash Script for battery with acpi is incomplete. Add to startup, fix sleep starting its own pid, fix PID number of the script to assist in killing it.
-- [ ] For bigger font and symbolic icon size of datetime and battery on panel edit the following lines to gnome-shell.css of the shell theme you are using (`~/.themes/mytheme/gnome-shell/gnome-shell.css`). Find a way to improve visual effect (maybe drawing a box) on hover. Done. See the changed css file having "edited by me"  comment.
-
-```
-#panel .panel-button {
-
-  font-weight: bold;
-  color: white;
-  font-size: 21px;
-```
-
-- [ ] Make a script to add commands to [commands.md](commands.md).
-- [ ] Make something, maybe a bot, to manage all saved items in telegram and Info in WhatsApp together and consistently. It must also be able to search through it.
-- [ ] Zotero first major task offloading research has left so many files to read again, some of which are codes help, latex help, rl, etc. Something like a kerko app can be made to view and search through this archive, henceforth named as big bang.
-
-### github.io (static site for `rice`)
-
-- [ ] `ssg` [watch this video, simplest and bloat-less static website generator from markdown written in posix shell and require `lowdown` C library](https://youtu.be/N_ttw2Dihn8)
+- [ ] `ssg` [watch this video, simplest and bloat-less static website generator from markdown written in posix shell and require `lowdown` C library](https://youtu.be/N_ttw2Dihn8).  [static site generator](https://www.reddit.com/r/opensource/comments/hlaqk2/i_have_created_my_own_static_site_generator_in/?utm_medium=android_app&utm_source=share)
 - [ ] static site generate from `.md` files with [fastpages](https://github.com/fastai/fastpages).
 - [ ] static site generator with hugo.
-- [ ] static site with [surge.sh](surge.sh) ? (nodejs)
-- [ ] gatsby ? (nodejs)
 - [ ] ask an artist to commission a profile pic for me. It should be creative like showing only the outline of my features [like this here](https://github.com/buffet/) or an anime kawai adaptation of my face. Use it as profile pic for all platforms.
 - [ ] personal web should include my creative skills too like drawings, cookings (maybe with recipe like [here, sclurrey](https://theskullery.net/recipes/veggie-mini-pizza) ), books read (a link to goodreads), anime watched (maybe review too), and rice.
 - [ ] write reviews for books read on goodreads.
+- [ ] [online_accounts_links](online_accounts.md) (like linktree) 
 
 
-### reading
+### reading/watching/etc. for ideas and incorporations
 
-- [ ] github flavoured markdown vs. other markdowns
-- [ ] [writing in github flavoured markdown](https://help.github.com/en/github/writing-on-github)
-- [ ] markdown rendering engine
-- [ ] pandoc tool and its command line utilities
+- [ ] archwiki and gentoo wiki are :heart:
+- [x] github flavoured markdown vs. other markdowns
+- [ ] markdown rendering engine ?
+- [x] pandoc tool and its command line utilities
 - [ ] watch zathura workflow video on [youtube](https://www.youtube.com/watch?v=OC8FZW56MEc)
-- [ ] sofiaben's [dotfiles](https://github.com/sofiabelen/dotfiles)
 - [ ] [Journaling in vim with markdown formatting](https://danishpraka.sh/2020/02/23/journaling-in-vim.html)
+
+
+### these people's :rice_ball: are inspirational
+
+- [ ] [sofiaben i3](https://github.com/sofiabelen/dotfiles)
+- [ ] [elenapan awesomeWM](https://github.com/elenapan/dotfiles)
+- [ ] [the-glorious-dotfiles awesome](https://github.com/manilarome/the-glorious-dotfiles)
+- [ ] [Swifty chicken bspwm](https://github.com/SwiftyChicken/dotfiles)
+- [ ] [JavaCafe01 awesomeWM](https://github.com/JavaCafe01/dotfiles)
+
+

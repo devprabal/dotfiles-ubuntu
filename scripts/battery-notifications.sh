@@ -52,4 +52,5 @@ echo -e "\033[0;35mpgrep battery-notific\033[0m"
 # to see the pid of sleep 9
 #ps --ppid $(ps -C battery-notific -o pid --no-headers) -o pid,user,ppid,comm
 
+# TODO: Add to startup, fix sleep starting its own pid, fix PID number of the script to assist in killing it.
 
