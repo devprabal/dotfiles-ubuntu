@@ -77,9 +77,9 @@ See [documentation - girara, where you can set window sizes, etc.](https://pwmt.
 
 ---
 
-### Commandline 
+### Incantations 
 
-I have written some frequently used and important (and easily forgettable) commands [here](commandline.md).
+I have written some frequently used and important (and easily forgettable) commands [here](incantations.md).
 
 ---
 
