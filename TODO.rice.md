@@ -22,7 +22,7 @@
 - [ ] [discord chat explorer](https://github.com/Tyrrrz/DiscordChatExporter) -- CLI to export all chats from discord server/channels in various formats etc. Requires dot net core. Read the wiki of project's github for all help. 
 
 
-**NOTE :pencil: There are some messages in "Saved Messages" in telegram that list some softwares/tools/scripts that have not been tried-out but sound cool. There are marked with :question:** And those with :heavy_check_mark: already have been written in this file.
+**NOTE :pencil: There are some messages in "Saved Messages" in telegram that list some softwares/tools/scripts that have not been tried-out but sound cool. These are marked with :question:** And those with :heavy_check_mark: have already been written in this file.
 
 ### update
 
