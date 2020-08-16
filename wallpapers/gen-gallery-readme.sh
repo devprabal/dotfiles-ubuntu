@@ -1,22 +1,23 @@
 #!/bin/bash
 write_headers () {
     cat > README.md << _EOF_
-# Wallpapers and Art Collection (found online) :framed_picture:
+# Wallpapers and Art Collection :framed_picture:
 
 ## Credits
  - [Alex Martin](https://www.alexstevenmartin.com/)
- - user \`nuaNce#4387\` (discord) on unixporn server
+ - *wallpapers* channel on unixporn discord server
  - u/Alcimidius on r/awwnime
  - Twitter@15nichi
  - [Wallpaperflare](www.wallpaperflare.com)
  - [Mat Szulik](https://matszulik.artstation.com/)
  - [Thomas Dubois](https://www.artstation.com/thomas_dubois)
  - [Peter Lee](https://www.artstation.com/peterconcept)
+ - [Space goose](https://www.artstation.com/spacegooose)
  - I don't remember some of them :sweat: . Contact me if you see your artwork not credited above.
 
 ## Gallery
 
-### Can be used as wallpapers
+Can be used as wallpapers
 
 <p align="center">
 
@@ -37,7 +38,7 @@ do
     write_images "$filename" "gallery" "150" "100"
 done
 
-echo -e '\n</p>\n\n## Art\n\n### Found them too beautiful to leave out even if they do not become wallpapers\n\n<p align="center">\n' >> README.md
+echo -e '\n</p>\n\n## Art\n\nFound them too beautiful to leave out even if they do not become wallpapers\n\n<p align="center">\n' >> README.md
 
 ls artwork | while read -r filename
 do

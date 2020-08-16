@@ -1,19 +1,20 @@
-# Wallpapers and Art Collection (found online) :framed_picture:
+# Wallpapers and Art Collection :framed_picture:
 
 ## Credits
  - [Alex Martin](https://www.alexstevenmartin.com/)
- - user `nuaNce#4387` (discord) on unixporn server
+ - *wallpapers* channel on unixporn discord server
  - u/Alcimidius on r/awwnime
  - Twitter@15nichi
  - [Wallpaperflare](www.wallpaperflare.com)
  - [Mat Szulik](https://matszulik.artstation.com/)
  - [Thomas Dubois](https://www.artstation.com/thomas_dubois)
  - [Peter Lee](https://www.artstation.com/peterconcept)
+ - [Space goose](https://www.artstation.com/spacegooose)
  - I don't remember some of them :sweat: . Contact me if you see your artwork not credited above.
 
 ## Gallery
 
-### Can be used as wallpapers
+Can be used as wallpapers
 
 <p align="center">
 
@@ -43,6 +44,7 @@
 <a href="gallery/Pavi_1st_birthday_10-Oct.png"><img src="gallery/Pavi_1st_birthday_10-Oct.png" width="150" height="100"></a>
 <a href="gallery/peter-lee-aow3kyoto02.jpg"><img src="gallery/peter-lee-aow3kyoto02.jpg" width="150" height="100"></a>
 <a href="gallery/peter-lee-aow4kyoto01.jpg"><img src="gallery/peter-lee-aow4kyoto01.jpg" width="150" height="100"></a>
+<a href="gallery/physics.png"><img src="gallery/physics.png" width="150" height="100"></a>
 <a href="gallery/piano.jpg"><img src="gallery/piano.jpg" width="150" height="100"></a>
 <a href="gallery/the-priory-of-the-orange-tree-wallpaper.jpg"><img src="gallery/the-priory-of-the-orange-tree-wallpaper.jpg" width="150" height="100"></a>
 <a href="gallery/thomas-dubois-dark-waters-19-web.jpg"><img src="gallery/thomas-dubois-dark-waters-19-web.jpg" width="150" height="100"></a>
@@ -61,7 +63,7 @@
 
 ## Art
 
-### Found them too beautiful to leave out even if they do not become wallpapers
+Found them too beautiful to leave out even if they do not become wallpapers
 
 <p align="center">
 
@@ -69,6 +71,7 @@
 <a href="artwork/girl_umbrella.jpg"><img src="artwork/girl_umbrella.jpg" width="100" height="133"></a>
 <a href="artwork/hanabi_kaguya.jpg"><img src="artwork/hanabi_kaguya.jpg" width="100" height="133"></a>
 <a href="artwork/mateusz-szulik-08-tokyo-artstation.jpg"><img src="artwork/mateusz-szulik-08-tokyo-artstation.jpg" width="100" height="133"></a>
+<a href="artwork/pod_racer.jpeg"><img src="artwork/pod_racer.jpeg" width="100" height="133"></a>
 <a href="artwork/thomas-dubois-sandman-web01.jpg"><img src="artwork/thomas-dubois-sandman-web01.jpg" width="100" height="133"></a>
 
 </p>
