@@ -19,6 +19,10 @@
 - [ ] [fet.sh](https://github.com/6gk/fet.sh/blob/master/fet.sh) -- fetch written in POSIX shell with no external commands (~100 loc)
 - [ ] [bolt](https://github.com/salman-abedin/bolt) -- A launcher wrapper written in PSOIX shell with less than 200 sloc. Very minimal alternative to rofi or dmenu.
 - [x] [NOT USING] [Gnome firefox look](https://github.com/rafaelmardojai/firefox-gnome-theme)
+- [ ] [discord chat explorer](https://github.com/Tyrrrz/DiscordChatExporter) -- CLI to export all chats from discord server/channels in various formats etc. Requires dot net core. Read the wiki of project's github for all help. 
+
+
+NOTE :pencil: **There are some messages in "Saved Messages" in telegram that list some softwares/tools/scripts that have not been tried-out but sound cool. There are marked with :question: **
 
 ### update
 
@@ -31,6 +35,7 @@
 - [ ] script to manage dotfiles. script to cp into rice any dotfile that is modified.
 - [ ] make rice public and change README.md to look structured and beautiful.
 - [ ] These things do not tell when a new update is available and hence are required regular manual updates -- papirus icon pack, hack nerd font, prof-gnome-gtk and gnome-shell theme.
+- [ ] Likewise, masterpdfeditor5 updates the `/usr/share/applications/masterpdfeditor5.desktop` file to change the Icon shown in the app grid to the one provided in its install dir `/opt/master-pdf-editor`. We need to manually change that to `masterpdfeditor` for Papirus-icons.
 
 ### issues
 
@@ -44,11 +49,16 @@
 
 - [ ] `ssg` [watch this video, simplest and bloat-less static website generator from markdown written in posix shell and require `lowdown` C library](https://youtu.be/N_ttw2Dihn8).  [static site generator](https://www.reddit.com/r/opensource/comments/hlaqk2/i_have_created_my_own_static_site_generator_in/?utm_medium=android_app&utm_source=share)
 - [ ] static site generate from `.md` files with [fastpages](https://github.com/fastai/fastpages).
-- [ ] static site generator with hugo.
+- [ ] [I WON'T USE THIS] static site generator with hugo.
 - [ ] ask an artist to commission a profile pic for me. It should be creative like showing only the outline of my features [like this here](https://github.com/buffet/) or an anime kawai adaptation of my face. Use it as profile pic for all platforms.
 - [ ] personal web should include my creative skills too like drawings, cookings (maybe with recipe like [here, sclurrey](https://theskullery.net/recipes/veggie-mini-pizza) ), books read (a link to goodreads), anime watched (maybe review too), and rice.
 - [ ] write reviews for books read on goodreads.
 - [ ] [online_accounts_links](online_accounts.md) (like linktree) 
+
+### github profile readme
+
+- [ ] [awesome-github-profile-readmes awesomelist](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+- [ ] [youtube-video for help and ideas](https://www.reddit.com/r/VisualCoding/comments/ia6yvn/update_next_level_github_profile_readme_new/?utm_medium=android_app&utm_source=share)
 
 
 ### reading/watching/etc. for ideas and incorporations
