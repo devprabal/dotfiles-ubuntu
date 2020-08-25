@@ -2,6 +2,8 @@
 
 [**discord** devpogi#4656](devpogi#4656)
 
+[**anilist** devpogi](https://anilist.co/user/devpogi/)
+
 [**telegram** devpogi](https://telegram.me/devpogi)
 
 [**gmail** ghjxvnjd@gmail.com](maito:ghjxvnjd@gmail.com)

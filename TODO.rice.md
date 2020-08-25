@@ -20,6 +20,9 @@
 - [ ] [bolt](https://github.com/salman-abedin/bolt) -- A launcher wrapper written in PSOIX shell with less than 200 sloc. Very minimal alternative to rofi or dmenu.
 - [x] [NOT USING] [Gnome firefox look](https://github.com/rafaelmardojai/firefox-gnome-theme)
 - [ ] [discord chat explorer](https://github.com/Tyrrrz/DiscordChatExporter) -- CLI to export all chats from discord server/channels in various formats etc. Requires dot net core. Read the wiki of project's github for all help. 
+- [ ] [Tachiyomi](https://tachiyomi.org/) -- free and open source manga reader for android.
+- [ ] `nnn` and `lf` are two new file managers for terminal apart from the well known `ranger`.
+- [ ] `figlet` echoes string in a fancy way on terminal.
 
 
 **NOTE :pencil: There are some messages in "Saved Messages" in telegram that list some softwares/tools/scripts that have not been tried-out but sound cool. These are marked with :question:** And those with :heavy_check_mark: have already been written in this file.
@@ -44,6 +47,9 @@
 - [ ] How to save OneTab firefox-addon settings? It cannot be synced with firefox's profile and thus settings have to be configured when firefox is installed on a new laptop/OS (with same account). 
 - [ ] Make something, maybe a bot, to manage all saved items in telegram (Saved Messages), WhatsApp (Info), discord (leisure), reddit (saved posts and comments) together and consistently. It must also be able to search through it.
 - [ ] Zotero first *major* - *task offloading* research has left so many files to read again, some of which are codes help, latex help, rl, etc. Something like a kerko app can be made to view and search through this archive.
+- [ ] `lf` file manager has stopped working out of the blue. 
+- [ ] Adwaita-blue-riced-simple (shell theme) is not working after gnome-shell updated to 3.36.3. Now it is working. But it needs to be updated to Adwaita-master.
+- [ ] set up a devprabal.github.io/startpage for firefox home/newTab. See [this](https://github.com/rajshekhar26/startpage) to get it working with newTabs.
 
 ### personal website
 
@@ -54,6 +60,7 @@
 - [ ] personal web should include my creative skills too like drawings, cookings (maybe with recipe like [here, sclurrey](https://theskullery.net/recipes/veggie-mini-pizza) ), books read (a link to goodreads), anime watched (maybe review too), and rice.
 - [ ] write reviews for books read on goodreads.
 - [ ] [online_accounts_links](online_accounts.md) (like linktree) 
+- [ ] see firefox bookmarks on **personal website** for inspiration like this [here](https://octobanana.com/)
 
 ### github profile readme
 
