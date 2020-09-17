@@ -13,6 +13,11 @@ write_headers () {
  - [Thomas Dubois](https://www.artstation.com/thomas_dubois)
  - [Peter Lee](https://www.artstation.com/peterconcept)
  - [Space goose](https://www.artstation.com/spacegooose)
+ - [Mona Finden](https://www.artstation.com/mona)
+ - [5 Health](https://twitter.com/5healthMONO)
+ - [u/VermillionSun](https://www.reddit.com/user/VermillionSun/)
+ - [Michael Handt](https://www.artstation.com/mhandt)
+ - [Jun Zhang](https://www.artstation.com/777)
  - I don't remember some of them :sweat: . Contact me if you see your artwork not credited above.
 
 ## Gallery
