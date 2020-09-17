@@ -23,8 +23,8 @@
 
 **This is a WIP**, and hopefully, I will apply this color scheme to more programs that I use on a daily basis. For now, the color scheme is applied to the following programs -  
 
-- [x] gnome-shell-theme (3.36)
-- [x] alacritty
+- [x] [gnome-shell-theme (3.36)](https://github.com/devprabal/Adwaita-bananafish)
+- [x] [alacritty](../../dotfiles/config/alacritty/bananafish_color.yml)
 - [ ] gtk-3.0
 - [ ] vim
 - [ ] VSCode
