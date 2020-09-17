@@ -1,0 +1,40 @@
+# bananafish color palette
+colors:
+  primary:
+    background: '#373a3f'
+    foreground: '#ebebeb'
+  cursor:
+    text: '#373a3f'
+    cursor: '#ebebeb'
+  vi_mode_cursor:
+    text: '#373a3f'
+    cursor: '#ebebeb'
+  selection:
+    text: CellForeground
+    background: '#141415'
+  search:
+    matches:
+      foreground: CellBackground
+      background: '#aeecfb'
+    bar:
+      background: '#3e3f43'
+      foreground: '#ebebeb'
+  normal:
+    black:   '#141415'
+    red:     '#ed6e5b'
+    green:   '#16bf94'
+    yellow:  '#fbd100'
+    blue:    '#648cf5'
+    magenta: '#bd6dab'
+    cyan:    '#aeecfb'
+    white:   '#babbbf'
+  bright:
+    black:   '#141415'
+    red:     '#ed6e5b'
+    green:   '#16bf94'
+    yellow:  '#fbd100'
+    blue:    '#648cf5'
+    magenta: '#bd6dab'
+    cyan:    '#aeecfb'
+    white:   '#fcfcfc'
+    
