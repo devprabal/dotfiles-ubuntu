@@ -23,6 +23,12 @@
 - [ ] [Tachiyomi](https://tachiyomi.org/) -- free and open source manga reader for android.
 - [ ] `nnn` and `lf` are two new file managers for terminal apart from the well known `ranger`.
 - [ ] `figlet` echoes string in a fancy way on terminal.
+- [ ] [deadbeef](https://github.com/DeaDBeeF-Player/deadbeef) is a cool gui music player.
+- [ ] `ncmpcpp` and `mpd` for terminal (using ncurses) music player.
+- [ ] [tizonia](https://tizonia.org/) is another terminal music player which can play from spotify, youtube, google music, soundcloud, etc. (Needs a premium spotify account).
+- [ ] pywal for color scheme generator and app integration for that generated colorscheme (generates from a wallpaper)
+- [ ] [lightcord](https://github.com/Lightcord/Lightcord) for plugins and themes support.
+- [ ] [fuck](https://github.com/nvbn/thefuck) corrects your previous console command.
 
 
 **NOTE :pencil: There are some messages in "Saved Messages" in telegram that list some softwares/tools/scripts that have not been tried-out but sound cool. These are marked with :question:** And those with :heavy_check_mark: have already been written in this file.
@@ -50,6 +56,8 @@
 - [ ] `lf` file manager has stopped working out of the blue. 
 - [ ] Adwaita-blue-riced-simple (shell theme) is not working after gnome-shell updated to 3.36.3. Now it is working. But it needs to be updated to Adwaita-master.
 - [ ] set up a devprabal.github.io/startpage for firefox home/newTab. See [this](https://github.com/rajshekhar26/startpage) to get it working with newTabs.
+- [x] To set up `ncmpcpp` and `mpd` Follow arch wiki guide first to set up both of them, then [see this](https://unix.stackexchange.com/questions/456909/socket-already-in-use-but-is-not-listed-mpd) and [this if still not able to configure, see the step of adding mpd to login group](https://computingforgeeks.com/how-to-configure-mpd-and-ncmpcpp-on-linux/) and also [these reddit comments for user "mpd" line](https://www.reddit.com/r/linux4noobs/comments/28sczg/mpd_failed_to_set_group_29_operation_not/)
+- [x] Deadbeef plugins [See this plugin for media controls in top bar in gnome](https://github.com/Serranya/deadbeef-mpris2-plugin/issues/9). See also [this plugins list](https://deadbeef.sourceforge.io/plugins.html)
 
 ### personal website
 
@@ -61,6 +69,7 @@
 - [ ] write reviews for books read on goodreads.
 - [ ] [online_accounts_links](online_accounts.md) (like linktree) 
 - [ ] see firefox bookmarks on **personal website** for inspiration like this [here](https://octobanana.com/)
+- [ ] [new.css, classless css in less than 5 kB, write webpage in only html, it will automatically make it modern and responsive](https://github.com/xz/new.css)
 
 ### github profile readme
 
