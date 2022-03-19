@@ -1,3 +1,8 @@
+**I do not maintain this repo anymore now. With time, my hobby to rice has dwindled. I use gnome as the default DE with some community-created themes and tweaks, with as little custommizations as possible. I have also moved to Manjaro Linux from Void Linux from Ubuntu (the three distros that I have used for the majority of time).**
+
+---
+
+
 # Linux ricing
 
 > The old configs have been moved [here.](https://github.com/devprabal/rice/blob/master/old/README.md)
